@@ -2,12 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="El mapa resume los componentes del desarrollo de videojuegos, incluyendo metodologías de desarrollo como las ágiles y Scrum, conceptos de programación estructurada y orientada a objetos, y la utilización de principios SOLID. Para la implementación de un videojuego se enfatiza el uso de diagramas de flujo, variables, eventos y estructuras de datos como arreglos y listas. Además, se reconoce la importancia de las matemáticas, específicamente vectores y matrices, en el desarrollo de videojuegos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
