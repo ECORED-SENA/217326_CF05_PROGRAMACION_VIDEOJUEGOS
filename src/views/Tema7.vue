@@ -5,21 +5,21 @@
     .titulo-principal.color-acento-contenido.mb-0(data-aos="zoom-in-left")
       .titulo-principal__numero
         span 7
-      h1 Componer los escenarios (personajes, props, fondos) 
+      h1 Componer los escenarios (personajes, #[i props], fondos) 
     .row.bg1.align-items-center.py-5.mb-5
       .col-lg-12.col-12.px-lg-5.px-4
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/39.png')
 
-    p(data-aos="fade-down").mb-5 Para la composición de escenarios Unity cuenta con herramientas que facilitan su desarrollo, como es el caso de la herramienta editor de terrenos, en la cual se pueden asignar texturas y color a los mismos. Para usar la herramienta crear terrenos se sigue la ruta de GameObject – 3D Object – Terrain, como se muestra a continuación:
+    p(data-aos="fade-down").mb-5 Para la composición de escenarios Unity cuenta con herramientas que facilitan su desarrollo, como es el caso de la herramienta editor de terrenos, en la cual se pueden asignar texturas y color a los mismos. Para usar la herramienta crear terrenos se sigue la ruta de #[i GameObject – 3D Object – Terrain], como se muestra a continuación:
 
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 17.
-      span Terrain
+      span.fst-italic Terrain
     img.img-t.img-a.mb-1(data-aos="zoom-in")(src='@/assets/curso/temas/40.png',alt="La imagen muestra la interfaz de usuario de Unity, con un enfoque en el menú desplegable para crear nuevos objetos en la escena. ") 
     figcaption.mb-4 Nota. Opción crear Terrain.
 
-    p(data-aos="fade-down").mb-5 Al hacerlo se forma un plano de recuadros en el escenario, ahora en el panel de Inspector se puede configurar el terreno, como se muestra en la siguiente figura.   
+    p(data-aos="fade-down").mb-5 Al hacerlo se forma un plano de recuadros en el escenario, ahora en el panel de #[i Inspector] se puede configurar el terreno, como se presenta en la siguiente figura.   
 
 
     .titulo-sexto.color-acento-contenido
@@ -44,7 +44,7 @@
                     span Descargar
                     i.fas.fa-file-download  
 
-    h4.text-center.mb-5.t1.mt-4(data-aos="fade-down") A continuación, puede visualizar la integración de assets en Unity para la creación de escenarios. 
+    h4.text-center.mb-5.t1.mt-4(data-aos="fade-down") A continuación, puede visualizar la integración de #[i assets] en Unity para la creación de escenarios. 
 
     .row.justify-content-center.align-items-center        
       .col-lg-12(data-aos="fade-left")     

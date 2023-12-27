@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Programación de videojuegos',
     descripcionCurso:
-      'Durante este componente, el aprendiz tendrá la oportunidad de desarrollar un prototipo de videojuego. El proceso comienza con la comprensión de la metodología de trabajo en un entorno real, utilizando métodos ágiles como Scrum. Posteriormente, el aprendiz adquirirá una comprensión de los conceptos fundamentales de la programación, lo que le permitirá, utilizando Unity como caso de estudio, implementar el prototipo del videojuego',
+      'Durante este componente, el aprendiz tendrá la oportunidad de desarrollar un prototipo de videojuego. El proceso comienza con la comprensión de la metodología de trabajo en un entorno real, utilizando métodos ágiles como Scrum. Posteriormente, el aprendiz adquirirá una comprensión de los conceptos fundamentales de la programación, lo que le permitirá implementar el prototipo del videojuego utilizando Unity.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -50,7 +50,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Metodología <i>SCRUM</i>',
+            titulo: 'Metodología SCRUM',
             hash: 't_1_2',
           },
           {
@@ -64,7 +64,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Programación en Unity3D',
+        titulo: 'Programación en Unity 3D',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -90,7 +90,7 @@ export default {
           },
           {
             numero: '2.5',
-            titulo: 'Estructura básica de un script de Unity3D',
+            titulo: 'Estructura básica de un <i>script</i> de Unity 3D',
             hash: 't_2_5',
           },
           {
@@ -182,13 +182,13 @@ export default {
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Unity 3D importar elementos 3D - assets',
+        titulo: 'Unity 3D importar elementos 3D - <i>assets</i>',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema7',
         numero: '7',
-        titulo: 'Componer los escenarios (personajes, props, fondos)',
+        titulo: 'Componer los escenarios (personajes, <i>props</i>, fondos)',
         desarrolloContenidos: true,
       },
       {
@@ -295,7 +295,7 @@ export default {
     },
     {
       tema: '3. Programación Orientada a Objetos',
-      referencia: 'Cómo te explico? (2021). Programación estructurada.',
+      referencia: '¿Cómo te explico? (2021). Programación estructurada.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/playlist?list=PLHxyqMuBkJ3yyIwbNSt1GuqLFccq2YYTx',
@@ -310,7 +310,7 @@ export default {
     },
     {
       tema: '4.1 Vectores',
-      referencia: 'Matematicas profe Alex. (2019). Vectores.',
+      referencia: 'Matemáticas profe Alex. (2019). Vectores.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/playlist?list=PLeySRPnY35dEaZT3iJUNdDkgLEZE5x-Jd',
@@ -318,7 +318,7 @@ export default {
     {
       tema: '4.2 Matrices',
       referencia:
-        'Matematicas profe Alex. (2019, mayo 31). Qué es una matriz | Sistemas de ecuaciones.',
+        'Matemáticas profe Alex. (2019, mayo 31). ¿Qué es una matriz? | Sistemas de ecuaciones.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=RJ96S2Pt3qU&list=PLeySRPnY35dEr2XewNdOjOl7Ft0tLIlKI',
@@ -326,7 +326,7 @@ export default {
     {
       tema: 'Diagrama de Clases',
       referencia:
-        'Nicosiored. (2017, octubre 25).  Introduccion a UML- 1- Tutorial UML en español.',
+        'Nicosiored. (2017, octubre 25).  Introducción a UML- 1- Tutorial UML en español.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=-OWd0tJAK10&list=PLM-p96nOrGcaw5dhv8wOA5tVVWEmXtA2F',
@@ -457,12 +457,6 @@ export default {
         {
           nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

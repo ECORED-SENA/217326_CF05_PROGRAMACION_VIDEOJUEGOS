@@ -58,7 +58,7 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg6")
       .row.justify-content-center(titulo="<i>Game</i>")
         .col-lg-4.mb-4.mb-md-0
-          p En esta pestaña se ve el juego funcionando, para probarlo y verlo en ejecución se debe dar clic en el botón play. Cuando este botón está resaltado en azul indica que el juego está activo, tal como se muestra en la siguiente figura.  
+          p En esta pestaña se ve el juego funcionando, para probarlo y verlo en ejecución se debe dar clic en el botón #[i play]. Cuando este botón está resaltado en azul indica que el juego está activo, tal como se muestra en la siguiente figura.  
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/168.png')
@@ -66,31 +66,32 @@
 
       .row.justify-content-center(titulo="<i>Scene</i>")
         .col-lg-4.mb-4.mb-md-0
-          p Pestaña que permite configurar el escenario del videojuego, donde van a ir ubicados los elementos del mismo. Dichos elementos estarán listados en la pestaña de la izquierda llamada hierarchy. Unity por defecto ubica dos elementos, cámara (Main Camera) e iluminación (Directional Light) como se muestra en la siguiente figura.  
+          p Pestaña que permite configurar el escenario del videojuego, donde van a ir ubicados los elementos del mismo. Dichos elementos estarán listados en la pestaña de la izquierda llamada #[i hierarchy]. Unity por defecto ubica dos elementos, cámara (#[i Main Camera]) e iluminación (#[i Directional Light]) como se muestra en la siguiente figura.  
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/169.png')
-          figcaption.bgw Nota. Opciones pestaña Scene.
+          figcaption.bgw Nota. Opciones pestaña #[i Scene.]
 
       .row.justify-content-center(titulo="<i>Inspector</i>")
-        p.mb-4 Al lado derecho se muestra la pestaña Inspector, en la cual se pueden modificar los atributos y propiedades de cada elemento, como se muestra en las siguientes figuras:
+        p.mb-4 Al lado derecho se muestra la pestaña Inspector, en la cual se pueden modificar los atributos y propiedades de cada elemento, como se presenta en las siguientes figuras:
         .col-lg-6.mb-4.mb-md-0
           img.img-mov(src='@/assets/curso/temas/170.png')
-          figcaption.bgw Nota. Pestaña Inspector.
+          figcaption.bgw Nota. Pestaña #[i Inspector].
       
         .col-lg-6.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/171.png')
-          figcaption.bgw Nota. Opciones Inspector.
+          figcaption.bgw Nota. Opciones #[i Inspector].
 
       .row.justify-content-center(titulo="<i>Project</i>")
-        p.mb-4 En la parte inferior izquierda se encuentra la pestaña Project, que es de suma importancia, pues allí se agregarán archivos externos a Unity como sonidos, texturas, imágenes, entre otros; los cuales pueden anexarse simplemente arrastrándolos, dando clic en la pestaña assets - crear como se muestra en la siguiente figura.
-        .col-lg-6.mb-4.mb-md-0
+        p.mb-4 En la parte inferior izquierda se encuentra la pestaña #[i Project], que es de suma importancia, pues allí se agregarán archivos externos a Unity como sonidos, texturas, imágenes, entre otros; los cuales pueden anexarse simplemente arrastrándolos, dando clic en la pestaña #[i assets] - crear como se presenta en la siguiente figura.
+        .px-lg-4
           img.img-mov(src='@/assets/curso/temas/172.png')
-          figcaption.bgw Nota. Opciones pestaña Project.
-      
-        .col-lg-6.col-md-auto    
+          figcaption.bgw Nota. Opciones pestaña #[i Project].
+
+        p.my-4 O directamente en la ventana #[i Project], dando clic derecho en #[i Create] como se muestra en la siguiente figura      
+        .px-lg-4
           img.img-mov(src='@/assets/curso/temas/173.png')
-          figcaption.bgw Nota. Opciones pestaña Project - Create.
+          figcaption.bgw Nota. Opciones pestaña #[i Project - Create].
 
     Separador 
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -105,15 +106,15 @@
 
           p En el escenario hay 3 ejes, alto, ancho y profundidad, que se indican en la parte superior derecha con las letras X, Y, Z. 
 
-          p Al dar clic derecho con el mouse se puede rotar la vista, además de que si se mantiene oprimido y se presiona las teclas WASD se podrá mover por el escenario como si se tratase de un videojuego en primera persona.  
+          p Al dar clic derecho con el #[i mouse] se puede rotar la vista, además de que si se mantiene oprimido y se presiona las teclas WASD se podrá mover por el escenario como si se tratase de un videojuego en primera persona.  
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/174.png')
           figcaption.bgw Nota. Identificación bordes cambio de tamaño escena.        
 
-      .row.justify-content-center(titulo="Zoom")
+      .row.justify-content-center(titulo="<i>Zoom</i>")
         .col-lg-4.mb-4.mb-md-0
-          p Al girar la rueda del mouse se puede hacer zoom o acercamiento, al presionarla y mantenerla oprimida, el cursor toma forma de mano, lo que permite mover la vista del escenario, como se puede ver en la siguiente figura.  
+          p Al girar la rueda del #[i mouse] se puede hacer #[i zoom] o acercamiento, al presionarla y mantenerla oprimida, el cursor toma forma de mano, lo que permite mover la vista del escenario, como se presenta en la siguiente figura.  
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/175.png')
@@ -121,7 +122,7 @@
 
       .row.justify-content-center(titulo="Vista")
         .col-lg-4.mb-4.mb-md-0
-          p Si se mantiene la tecla alt + clic izquierdo se puede girar la vista en torno al punto central de la misma, como se muestra en la siguiente figura.  
+          p Si se mantiene la tecla alt + clic izquierdo se puede girar la vista en torno al punto central de la misma, como se presenta en la siguiente figura.  
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/176.png')

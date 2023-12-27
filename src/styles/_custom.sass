@@ -253,7 +253,11 @@ figcaption
   background-color: white
 
 .img-infografica__card, .img-infografica-b__card  
-  width: 450px !important      
+  width: 450px !important
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    width: 220px !important  
+    margin-right: 3rem !important      
 
 .bg10
   background: url('../assets/curso/temas/44.png')
@@ -409,8 +413,8 @@ figcaption
 
 .bg23
   background: url('../assets/curso/temas/103.png')
-  background-position: center
-  background-size: 100% 92%
+  background-position: center top
+  background-size: 100% 96%
   background-repeat: no-repeat
   margin-inline: -3.4rem
   @media screen and (max-width: 992px)
@@ -553,3 +557,6 @@ figcaption
 .slyder-a__bullets__item
   background-color: #ADB3F3
   border: 1px solid #ADB3F3     
+
+.tarjeta-avatar .tarjeta
+  width: 100% !important  

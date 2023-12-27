@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-4(data-aos="fade") Estimado aprendiz bienvenido al componente formativo #[b.t1 “Programación de videojuegos”] Para comenzar, le invitamos a ingresar al siguiente video para obtener más información:
+    p.mb-4(data-aos="fade") Estimado aprendiz bienvenido al componente formativo #[b.t1 “Programación de videojuegos”]. Para comenzar, le invitamos a ingresar al siguiente video para obtener más información:
 
     .row.fondo-intro.align-items-center.py-4
       .col-lg-12.col-12.px-lg-5.px-4

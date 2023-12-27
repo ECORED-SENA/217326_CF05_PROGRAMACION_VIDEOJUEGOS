@@ -92,7 +92,7 @@
       .col-lg-12.col-12.px-lg-5.px-4        
         .row.justify-content-center.align-items-center  
           .col-lg-10.my-3
-            p(data-aos="fade-down") Las operaciones sobre matrices son un pilar fundamental en el álgebra lineal y tienen numerosas aplicaciones en diferentes campos como la física, la ingeniería, las ciencias de la computación, entre otros. A continuación, describiré algunas de las operaciones básicas que se pueden realizar con matrices:
+            p(data-aos="fade-down") Las operaciones sobre matrices son un pilar fundamental en el álgebra lineal y tienen numerosas aplicaciones en diferentes campos como la física, la ingeniería, las ciencias de la computación, entre otros. A continuación, se describirá algunas de las operaciones básicas que se pueden realizar con matrices:
           .col-lg-2.my-3
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/127.svg')  
 

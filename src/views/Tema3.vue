@@ -8,7 +8,7 @@
       h1 Programación Orientada a Objetos
     .row.justify-content-center.align-items-center  
       .col-lg-10.my-3
-        p(data-aos="fade-down") La Programación Orientada a Objetos es un paradigma de programación que utiliza objetos y sus interacciones para diseñar aplicaciones y programas de computadora. Es especialmente útil en el desarrollo de videojuegos, donde diferentes elementos del juego, como personajes, enemigos y power-ups, pueden ser modelados como objetos con sus propios atributos y comportamientos. 
+        p(data-aos="fade-down") La Programación Orientada a Objetos es un paradigma de programación que utiliza objetos y sus interacciones para diseñar aplicaciones y programas de computadora. Es especialmente útil en el desarrollo de videojuegos, donde diferentes elementos del juego, como personajes, enemigos y #[i power-ups], pueden ser modelados como objetos con sus propios atributos y comportamientos. 
       .col-lg-2.my-3
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/127.svg')  
 
@@ -99,7 +99,7 @@
           .col-lg-10      
             .row.justify-content-center.align-items-center 
               .col-lg-9.text-white.my-3
-                p En el ejemplo, "Enemigo" sería el nombre de la clase, con sus respectivos atributos (nombre, stamina, velocidad, ataque y defensa). Esta clase cuenta con métodos que identifican las acciones que el enemigo puede realizar, como son atacar, defender y perseguir.
+                p "Enemigo" sería el nombre de la clase, con sus respectivos atributos (nombre, stamina, velocidad, ataque y defensa). Esta clase cuenta con métodos que identifican las acciones que el enemigo puede realizar, como son atacar, defender y perseguir.
 
                 p Una forma sencilla de identificar qué es una clase, qué es un atributo y qué es un método es a través de su representación lingüística: generalmente, una clase se asocia con un sustantivo, los atributos con cualidades y los métodos con verbos.
               .col-lg-3     

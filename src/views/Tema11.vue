@@ -40,37 +40,37 @@
     #t_11_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 11.2 Diseño de interfaz del videojuego
 
-    p(data-aos="fade-down").mb-5 Los elementos de información e interactividad dentro del juego, tales como barra de energía, menús de opciones y demás son llamados interfaz de usuario o UI (User interface). Es así como la interfaz es muy importante en el proyecto de videojuego, puesto que es la que brinda información del estatus del personaje.
+    p(data-aos="fade-down").mb-5 Los elementos de información e interactividad dentro del juego, tales como barra de energía, menús de opciones y demás son llamados interfaz de usuario o #[i UI (User interface)]. Es así como la interfaz es muy importante en el proyecto de videojuego, puesto que es la que brinda información del estatus del personaje.
 
     img.img-t.img-a.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/19.png')
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg6")
       .row.justify-content-center(titulo="Paso 1: image")
         .col-lg-4.mb-4.mb-md-0
-          p Para empezar, lo primero que se debe hacer es ir a la pestaña GameObject – UI – Image, como se muestra en la siguiente figura.  En la pestaña hierarchy aparece un nuevo elemento llamado canvas, el cual contiene el elemento image y el evento system.
+          p Para empezar, lo primero que se debe hacer es ir a la pestaña #[i GameObject – UI – Image], como se presenta en la siguiente figura.  En la pestaña #[i hierarchy] aparece un nuevo elemento llamado canvas, el cual contiene el elemento #[i image] y el evento #[i system].
 
-          p Los pasos anteriores crearán un rectángulo transparente, el cual es el canvas de la UI, así por ende este es el espacio donde se van a poner los elementos, luego se crea el botón desde GameObjects – UI – Boton.   
+          p Los pasos anteriores crearán un rectángulo transparente, el cual es el canvas de la #[i UI], así por ende este es el espacio donde se van a poner los elementos, luego se crea el botón desde #[i GameObjects – UI – Boton].   
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/20.png')
           figcaption Nota. Ejemplo creación interfaz. 
       .row.justify-content-center(titulo="Paso 2: canva")
         .col-lg-4.mb-4.mb-md-0
-          p El canva en render mode se asigna a world space para que la interfaz aparezca siempre delante de los objetos que están en escena, como se muestra en la siguiente figura. 
+          p El canva en #[i render] mode se asigna a #[i world space] para que la interfaz aparezca siempre delante de los objetos que están en escena, como se muestra en la siguiente figura. 
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/21.png')
           figcaption Nota. Ejemplo creación interfaz – render mode. 
       .row.justify-content-center(titulo="Paso 3: texto botón")
         .col-lg-4.mb-4.mb-md-0
-          p Seleccionando en hierachi el elemento botón, se selecciona el Inspector y se agrega el texto que se quiere que aparezca en el botón, en este caso será el de comenzar juego, como se muestra a continuación: 
+          p Seleccionando en #[i hierachi] el elemento botón, se selecciona el #[i Inspector] y se agrega el texto que se quiere que aparezca en el botón, en este caso será el de comenzar juego, como se muestra a continuación: 
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/22.png')
           figcaption Nota. Ejemplo creación interfaz – texto botón.      
       .row.justify-content-center(titulo="Paso 4: barra vida")
         .col-lg-4.mb-4.mb-md-0
-          p Para poner una barra de vida se crea el objeto Slider accediendo a la barra de menú principal GameObject - UI - Slider. Una vez puesto y seleccionado aparecerá una barra Slider, se despliega y tendrá background, luego se selecciona el Inspector, se da clic en image – color y se asigna rojo, como se muestra en la siguiente figura. 
+          p Para poner una barra de vida se crea el objeto #[i Slider] accediendo a la barra de menú principal #[i GameObject - UI - Slider]. Una vez puesto y seleccionado aparecerá una barra #[i Slider], se despliega y tendrá #[i background], luego se selecciona el #[i Inspector], se da clic en #[i image – color] y se asigna rojo, como se presenta en la siguiente figura. 
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/23.png')
@@ -82,14 +82,14 @@
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/24.png')
           figcaption Nota. Ejemplo creación interfaz – fill área. 
-      .row.justify-content-center(titulo="Paso 6: Slider - handle slide area")
+      .row.justify-content-center(titulo="Paso 6: <i>Slider - handle slide area</i>")
         .col-lg-4.mb-4.mb-md-0
           p Ahora, en la tercera opción #[i handle slide] area se despliega y en #[i handle] se agrega un icono en #[i file] source para la barra de vida, como se muestra a continuación: 
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/25.png')
           figcaption Nota. Ejemplo creación interfaz – handle slide área.  
-      .row.justify-content-center(titulo="Paso 7: Slider - value")
+      .row.justify-content-center(titulo="Paso 7: <i>Slider - value</i>")
         .col-lg-4.mb-4.mb-md-0
           p Ahora para ver el #[i Slider] en funcionamiento se puede volver a #[i Slide]r y en Inspector aumentar el valor para ver cómo se va llenando la barra de vida, como se muestra a continuación: 
       
@@ -98,7 +98,7 @@
           figcaption Nota. Ejemplo creación interfaz – slider. 
       .row.justify-content-center(titulo="Paso 8: título")
         .col-lg-4.mb-4.mb-md-0
-          p Finalmente, se va a GameObjcet – UI - Text para crear el título que acompañará la interfaz, como lo muestra la figura a continuación: 
+          p Finalmente, se va a #[i GameObjcet – UI - Text] para crear el título que acompañará la interfaz, como se presenta la figura a continuación: 
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/27.png')

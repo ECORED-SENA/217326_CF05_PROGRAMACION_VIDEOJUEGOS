@@ -5,34 +5,34 @@
     .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
       .titulo-principal__numero
         span 2
-      h1 Programación en Unity3D
+      h1 Programación en Unity 3D
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/29.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El programa Unity es un motor de tipo gráfico; esto quiere decir que contiene muchas funcionalidades que resuelven aspectos en la creación de un videojuego sin que se necesite programar; por ejemplo poner color a un objeto seleccionado, iluminar un plano o cambiar el nivel de una imagen entre otros.<br><br>Para adicionar algún tipo de comportamiento, componente o atributo que no se pueda hacer desde el menú del programa, lo que se debe hacer es escribir líneas de código o scripts para que le proporcionen estas características. Esto es lo que se llama programación orientada a objetos. 
+        p.mb-0 El programa Unity es un motor de tipo gráfico; esto quiere decir que contiene muchas funcionalidades que resuelven aspectos en la creación de un videojuego sin que se necesite programar; por ejemplo, poner color a un objeto seleccionado, iluminar un plano o cambiar el nivel de una imagen entre otros.<br><br>Para adicionar algún tipo de comportamiento, componente o atributo que no se pueda hacer desde el menú del programa, lo que se debe hacer es escribir líneas de código o <i>scripts</i> para que le proporcionen estas características. Esto es lo que se llama programación orientada a objetos. 
 
     p(data-aos="fade-down").mb-5 La #[b.t1 Programación Orientada a Objetos -POO-] posee las siguientes características:   
 
     TabsA.color-acento-botones.mb-5
       .tarjeta.color-acento-botones--borde.p-4(titulo="Abstracción") 
         h4 Abstracción
-        p.mb-0 Consiste en abstraer o aislar las características o atributos esenciales que definen un objeto y que lo distinguen de los demás con el propósito de que las pueda usar otro objeto. Por ejemplo si el objeto es una puerta las características esenciales es que tenga un marco, bisagras y cerradura sin importar el tamaño, el color y el tipo de material entre otras.   
+        p.mb-0 Consiste en abstraer o aislar las características o atributos esenciales que definen un objeto y que lo distinguen de los demás con el propósito de que las pueda usar otro objeto. Por ejemplo, si el objeto es una puerta las características esenciales es que tenga un marco, bisagras y cerradura sin importar el tamaño, el color y el tipo de material entre otras.   
       .tarjeta.color-acento-botones--borde.p-4(titulo="Encapsulamiento") 
-        h4 Pila de producto
+        h4 Encapsulamiento
         p.mb-0 Es el conjunto de características esenciales que han sido separadas de las no esenciales. En el ejemplo de la puerta en el encapsulamiento se encuentra el marco, las bisagras y la cerradura ya que son los atributos principales o generales que hacen que el objeto sea definido como puerta, los demás atributos como el color, el material y el tamaño, hacen parte lo que se consideran características, pues estos son atributos que pueden poseer innumerables tipos de objetos. 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Herencia") 
         h4 Herencia
-        p Al encapsulamiento de las características de un objeto se le llama clase; que esta conformada por un patrón de atributos que la hacen de orden superior o superclase porque tiene características generales, pero pueden surgir clases hijas o subclases que hereden estas características y se encuentren en orden inferior dentro de la jerarquía. 
+        p Al encapsulamiento de las características de un objeto se le llama clase; que está conformada por un patrón de atributos que la hacen de orden superior o superclase porque tiene características generales, pero pueden surgir clases hijas o subclases que hereden estas características y se encuentren en orden inferior dentro de la jerarquía. 
 
         p.mb-0 En el ejemplo de la puerta, las clases hijas que heredan las características son los tipos de puertas que pueden elaborarse como las correderas, plegables, pivotantes, de seguridad, entre otras.   
       .tarjeta.color-acento-botones--borde.p-4(titulo="Polimorfismo") 
         h4 Polimorfismo
-        p.mb-0 Consiste en definir un método con un conjunto de parámetros el cual puede ser aplicado en varios tipos de objetos. El método puede aumentar o disminuir los parámetros dependiendo del objeto al que se aplique. Por ejemplo el método se llama Open y es utilizado para abrir diferentes objetos como: puerta, cuenta bancaria, evento, historia clínica, entre otros. Dependiendo de lo que se abra, el proceso como tal, tiene mas o menos actividades por realizar. 
+        p.mb-0 Consiste en definir un método con un conjunto de parámetros el cual puede ser aplicado en varios tipos de objetos. El método puede aumentar o disminuir los parámetros dependiendo del objeto al que se aplique. Por ejemplo, si método se llama Open y es utilizado para abrir diferentes objetos como: puerta, cuenta bancaria, evento, historia clínica, entre otros. Dependiendo de lo que se abra, el proceso como tal, tiene más o menos actividades por realizar. 
 
-    p(data-aos="fade-down") El lenguaje de programación que se utiliza en Unity para generar las líneas de código o Scripts es C#; el cual se compone de variables, funciones y clases que se explicarán más adelante. Para escribir el código, Unity tiene un editor de texto asociado llamado Visual Studio, aunque el programador puede utilizar simplemente el bloc de notas. El editor (Visual Studio) le ayuda a determinar los errores de sintaxis que se puedan cometer en el desarrollo, por esa razón es recomendable hacer uso de este.   
+    p(data-aos="fade-down") El lenguaje de programación que se utiliza en Unity para generar las líneas de código o #[i Scripts] es C#; el cual se compone de variables, funciones y clases que se explicarán más adelante. Para escribir el código, Unity tiene un editor de texto asociado llamado Visual Studio, aunque el programador puede utilizar simplemente el #[i bloc] de notas. El editor (Visual Studio) le ayuda a determinar los errores de sintaxis que se puedan cometer en el desarrollo, por esa razón es recomendable hacer uso de este.   
 
     h4(data-aos="fade-down").mb-5.t1 Antes de comenzar a estructurar un programa en Unity, ver la explicación de algunos conceptos básicos en el siguiente enlace:  
     
@@ -48,16 +48,16 @@
                   h4.mb-1 Fundamentos de programación: algoritmos, estructura de datos y objetos
                   p.mb-0 Consultar en la base de datos SENA, ingresando su usuario y contraseña. 
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://biblioteca.sena.edu.co/paginas/bases.html" target="_blank")
+                  a.boton.color-acento-botones(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=10409" target="_blank")
                     span Descargar
                     i.fas.fa-link    
 
     Separador 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.1 Conceptos básicos de algoritmo y programa   
-    p(data-aos="fade-down").mb-5 Para introducirse en el mundo de la programación, es necesario comprender los procedimientos y técnicas para desarrollar programas, teniendo claro de antemano que estos (programas) se conciben como la solución a un problema o situación determinada. A continuación se exponen los pasos fundamentales que conducen al desarrollo de un software:
+    p(data-aos="fade-down").mb-5 Para introducirse en el mundo de la programación, es necesario comprender los procedimientos y técnicas para desarrollar programas, teniendo claro de antemano que estos (programas) se conciben como la solución a un problema o situación determinada. A continuación, se exponen los pasos fundamentales que conducen al desarrollo de un #[i software]:
 
-    img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/52.svg') 
+    img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/52.svg', alt="La imagen muestra los pasos fundamentales para construir un software: primero, analizar el problema o situación; segundo, diseñar el algoritmo; tercero, realizar la programación.") 
 
     .row.justify-content-center.my-5           
       .col-lg-4(data-aos="zoom-in-left")
@@ -192,7 +192,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 5
-                span #[b Paso 5:] ¿encontró un tesoro?. 
+                span #[b Paso 5:] ¿encontró un tesoro?
               li 
                 .lista-ol--cuadro__vineta
                   span 6
@@ -253,7 +253,7 @@
 
           li 
             i.fas.fa-gamepad.t1
-            span #[b Aplicación:] conjunto de instrucciones escritas por programadores para que se ejecuten tareas específicas, por ejemplo procesar textos (Word), realizar cálculos (Excel), hacer presentaciones (PowerPoint), desarrollar videojuegos (Unity); entre muchos otros.   
+            span #[b Aplicación:] conjunto de instrucciones escritas por programadores para que se ejecuten tareas específicas, por ejemplo, procesar textos (Word), realizar cálculos (Excel), hacer presentaciones (PowerPoint), desarrollar videojuegos (Unity); entre muchos otros.   
 
     p(data-aos="fade-down").mb-4 El proceso que se lleva a cabo para que un programa sea ejecutado por el ordenador y realice la función deseada se muestra a continuación:
 
@@ -273,10 +273,8 @@
         p.mb-0 Al programa fuente se aplica la opción de compilar del editor de código utilizado, para que el ordenador a través de un lenguaje intérprete (interno en la máquina) lo convierta en un programa objeto que puede entender la máquina.       
       .tarjeta.color-acento-botones.p-3(x="50%" y="26%" numero="+")
         h4.mb-4 Entrega del programa ejecutable
-        p.mb-0 Es el programa que resulta de enlazar todas las funciones para convertir el programa objeto en un programa que la computadora pueda ejecutar.       
-      .tarjeta.color-acento-botones.p-3(x="50%" y="56%" numero="+")
-        h4.mb-4
-        p.mb-0       
+        p.mb-0 Es el programa que resulta de enlazar todas las funciones para convertir el programa objeto en un programa que la computadora pueda ejecutar.   
+       
       .tarjeta.color-acento-botones.p-3(x="50%" y="85%" numero="+")
         h4.mb-4 Entrega del programa objeto
         pEs el programa que se obtiene producto del proceso de compilación que ha realizado la máquina. Si el programa fuente llega a tener algún error de sintaxis cometido por el programador, el compilador entrega los errores generados para que sean corregidos y se vuelva a realizar la compilación.
@@ -301,16 +299,13 @@
         h4.mb-4 Compilación del programa
         p.mb-0 Al programa fuente se aplica la opción de compilar del editor de código utilizado, para que el ordenador a través de un lenguaje intérprete (interno en la máquina) lo convierta en un programa objeto que puede entender la máquina.       
       .tarjeta.color-acento-botones.p-3(x="50%" y="52.5%" numero="+")
-        h4.mb-4 Entrega del programa ejecutable
-        p.mb-0 Es el programa que resulta de enlazar todas las funciones para convertir el programa objeto en un programa que la computadora pueda ejecutar.       
-      .tarjeta.color-acento-botones.p-3(x="50%" y="65%" numero="+")
-        h4.mb-4
-        p.mb-0       
-      .tarjeta.color-acento-botones.p-3(x="50%" y="78.5%" numero="+")
         h4.mb-4 Entrega del programa objeto
-        pEs el programa que se obtiene producto del proceso de compilación que ha realizado la máquina. Si el programa fuente llega a tener algún error de sintaxis cometido por el programador, el compilador entrega los errores generados para que sean corregidos y se vuelva a realizar la compilación.
-
-        p.mb-0 Nota. Proceso llevado a cabo paa que un programa desarrollado sea ejecutado por el ordenador. Elaboración Propia(2021).       
+        p Es el programa que se obtiene producto del proceso de compilación que ha realizado la máquina. Si el programa fuente llega a tener algún error de sintaxis cometido por el programador, el compilador entrega los errores generados para que sean corregidos y se vuelva a realizar la compilación.
+        p.mb-0 Nota. Proceso llevado a cabo paa que un programa desarrollado sea ejecutado por el ordenador. Elaboración Propia(2021). 
+   
+      .tarjeta.color-acento-botones.p-3(x="50%" y="78.5%" numero="+")
+        h4.mb-4 Entrega del programa ejecutable
+        p.mb-0 Es el programa que resulta de enlazar todas las funciones para convertir el programa objeto en un programa que la computadora pueda ejecutar. 
       .tarjeta.color-acento-botones.p-3(x="50%" y="92.5%" numero="+")
         h4.mb-4 Ejecución del programa
         p.mb-0 El programa está listo para ser ejecutado por el ordenador y producir  los resultados que se esperan de este.    
@@ -318,13 +313,13 @@
     Separador 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.2 Diagramas de flujo    
-    p(data-aos="fade-down").mb-4 Es una herramienta de tipo gráfica que representa el diseño de un algoritmo y está compuesta por símbolos que indican las acciones a realizar para obtener un resultado que resuelve un problema, situación o tarea. Los símbolos están unidos por flechas las cuales señalan la secuencia lógica de ejecución de dichas acciones. Todo algoritmo tiene un comienzo y un final representados por sus símbolos respectivos. #[b.t1 A continuación se explica cada uno de ellos, ver tabla 2:]
+    p(data-aos="fade-down").mb-4 Es una herramienta de tipo gráfica que representa el diseño de un algoritmo y está compuesta por símbolos que indican las acciones a realizar para obtener un resultado que resuelve un problema, situación o tarea. Los símbolos están unidos por flechas las cuales señalan la secuencia lógica de ejecución de dichas acciones. Todo algoritmo tiene un comienzo y un final representados por sus símbolos respectivos. #[b.t1 A continuación, se explica cada uno de ellos, ver tabla 2:]
     .titulo-sexto.color-acento-contenido
       h5 Tabla 2.
       span Símbolos utilizados en los diagramas de flujo.
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
-        .tabla-a.text-center.mb-5
+        .tabla-a.text-center.mb-4
           table
             thead.bgt2
               tr.c2
@@ -364,6 +359,8 @@
                   img.img-a.img-t(src='@/assets/curso/temas/72.svg', alt='')
                 td Flechas que conectan los procesos e indican el flujo del diagrama de flujo.
 
+    p(data-aos="fade-down").mb-5 Los diagramas de flujo tienen unas reglas de elaboración, las cuales son:
+
     .row.bg1.align-items-center.py-0.mb-5
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center 
@@ -384,7 +381,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span d
-                span Los símbolos que indican decisión deben tener dos líneas de salida; una cuando la pregunta o afirmación que se coloca al interior. 
+                span Los símbolos que indican decisión deben tener dos líneas de salida; una cuando la pregunta o afirmación que se coloca al interior, es verdadera debe tener encima la palabra #[b SI] y la otra en el caso contrario, se coloca encima la palabra #[b NO].
               li 
                 .lista-ol--cuadro__vineta
                   span e
@@ -430,7 +427,7 @@
               p.mb-0 Comprueba si hay procedimientos que se repiten.     
 
     h4(data-aos="fade-down").mt-5 Ejemplo 
-    p(data-aos="fade-down").mb-5 En la siguiente figura se observa el diagrama de flujo del ejemplo de la historia #[b.t1 “La isla de los tesoros escondidos”], en la cual se había elaborado un algoritmo con la técnica de Pseudocódigo.  En este diagrama, ver figura 2, se ilustra la actividad que se le ha propuesto llevar a cabo al jugador.
+    p(data-aos="fade-down").mb-5 En la siguiente figura se observa el diagrama de flujo del ejemplo de la historia #[b.t1 “La isla de los tesoros escondidos”], en la cual se había elaborado un algoritmo con la técnica de Pseudocódigo.  En este diagrama, En este diagrama (figura 2), se ilustra la actividad que se le ha propuesto llevar a cabo al jugador.
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
@@ -457,7 +454,7 @@
                   h4.mb-1 Diseño y construcción de algoritmos
                   p.mb-0 Consultar en la base de datos SENA, ingresando su usuario y contraseña. 
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://biblioteca.sena.edu.co/paginas/bases.html" target="_blank")
+                  a.boton.color-acento-botones(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=6425" target="_blank")
                     span Descargar
                     i.fas.fa-link       
 
@@ -482,7 +479,7 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg6")
       div(titulo="Numéricos") 
-        p Representados por valores enteros o valores reales que incorporan el signo, por ejemplo el valor -5 corresponde a un número entero con signo negativo y 4,5 corresponde a un valor real con un solo decimal y sin signo.
+        p Representados por valores enteros o valores reales que incorporan el signo, por ejemplo, el valor -5 corresponde a un número entero con signo negativo y 4,5 corresponde a un valor real con un solo decimal y sin signo.
 
       div(titulo="Lógicos") 
         p Son tipos de datos que representa uno de dos valores “ falso” o “ verdadero”, utilizados en los algoritmos cuando se diseñan instrucciones en las cuales se debe cumplir una condición para la toma de una decisión; por ejemplo la condición es encontrar el tesoro; si la respuesta es verdadera puede continuar al siguiente nivel y si es falsa debe seguir buscando. 
@@ -497,7 +494,7 @@
             .col-auto
               img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/76.svg')            
             .col  
-              p.mb-0 Dentro de las líneas de código del programa se debe indicar el tipo de variable que se está creando; es decir qué tipo de valor almacenará;  a esto se le llama declarar una variable. Por ejemplo si la variable se declara tipo numérica, entonces no podrá contener caracteres.   
+              p.mb-0 Dentro de las líneas de código del programa se debe indicar el tipo de variable que se está creando; es decir qué tipo de valor almacenará;  a esto se le llama declarar una variable. Por ejemplo, si la variable se declara tipo numérica, entonces no podrá contener caracteres.   
 
     p(data-aos="fade-down").mb-5 En el lenguaje de programación de #[b.marck.t4 C#] utilizado en el programa de Unity para el desarrollo de videojuegos, se deben tener en cuenta una serie de #[b.t1 reglas para definir variables:]
 
@@ -522,7 +519,7 @@
               span No se pueden utilizar nombres con palabras propias del lenguaje de programación; por ejemplo la no se puede llamar a una variable “int”  pues esta es una palabra que reserva el programa para definir que el tipo de datos es entero. 
             li 
               i.fas.fa-gamepad.t1
-              span El lenguaje hace diferencia entre letras mayúsculas y minúsculas; por ejemplo las variables X y x son diferentes. 
+              span El lenguaje hace diferencia entre letras mayúsculas y minúsculas; por ejemplo, las variables X y x son diferentes. 
             li 
               i.fas.fa-gamepad.t1
               span Se recomienda darle un valor inicial a la variable.             
@@ -538,7 +535,7 @@
                 h4 Ejemplo               
                 p En este caso se han definido unas variables en C#
 
-                p Las palabras marcadas en rojo son palabras que hacen parte de la sintaxis del lenguaje; bool indica que la variable A es de tipo lógico y que puede contener el valor de true o false y en este caso la viable se inicializó con “false”. La variable B es de tipo numérico que puede tomar valores enteros y se ha inicializado con el valor “80”.
+                p Las palabras marcadas en rojo son palabras que hacen parte de la sintaxis del lenguaje; #[i bool] indica que la variable A es de tipo lógico y que puede contener el valor de true o false y en este caso la viable se inicializó con “#[i false]”. La variable B es de tipo numérico que puede tomar valores enteros y se ha inicializado con el valor “80”.
               .col-lg-3     
                 img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/79.png')  
                 
@@ -564,6 +561,8 @@
             td Es el elemento como tal, con el que se realiza la operación de adición, substracción, comparación: +,-,<,>
             td Son los elementos sobre los cuales se aplican las operaciones: #[b variables, números] 
 
+    p(data-aos="fade-down").mb-4 En el lenguaje de programación C# el cual se utiliza en Unity para el desarrollo de los videojuegos, se distinguen los siguientes #[b.t1 tipos de operadores:] 
+
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-4.p-4.bg20
         p •.  Lo que se quiere es sumar las variables A,B y colocar el resultado en la variable Total
@@ -576,7 +575,7 @@
 
         h4 Limpiar (A y B): _________            
 
-    p(data-aos="fade-down").mb-4 En el lenguaje de programación C# el cual se utiliza en Unity para el desarrollo de los videojuegos, se distinguen los siguientes #[b.t1 tipos de operadores:] 
+
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg6")
       div(titulo="Operadores de Asignación") 
@@ -604,14 +603,23 @@
           p #[b.t5 bool] total;  ⇒ se ha declarado la variable total de tipo booleano es decir que solo puede tomar uno de dos valores; “verdadero” o “falso”
 
           p total = 8 > 9 ; ⇒ esto da como resultado falso (false) 
-        .col-lg-4
+        .col-lg-4.order-lg-2
           img.img-t.img-a(src='@/assets/curso/temas/80.svg')  
 
-      div(titulo="Operadores Lógicos") 
-        p Estos operadores se utilizan con las tablas de verdad; 
-        p el operador && (AND) es decir “y” ; solo devuelve un valor verdadero si las dos expresiones son verdad. 
-        p el operador || (OR) es decir “o”; solo devuelve un valor verdadero si una de las dos expresiones es verdadera.
-        p el operador ! (NOT) es decir “no”; devuelve un valor verdadero si la expresión es falsa y devuelve un valor falso si la expresión es verdadera.
+      div(titulo="Operadores Lógicos")
+        ul.lista-ul.fa-ul
+          li 
+            i.fas.fa-gamepad.t2
+            | Estos operadores se utilizan con las tablas de verdad; 
+          li 
+            i.fas.fa-gamepad.t2
+            | el operador && (AND) es decir “y” ; solo devuelve un valor verdadero si las dos expresiones son verdad. 
+          li 
+            i.fas.fa-gamepad.t2
+            | el operador || (OR) es decir “o”; solo devuelve un valor verdadero si una de las dos expresiones es verdadera.
+          li 
+            i.fas.fa-gamepad.t2
+            | el operador ! (NOT) es decir “no”; devuelve un valor verdadero si la expresión es falsa y devuelve un valor falso si la expresión es verdadera.
 
         p Ejemplo: 
         p #[b.t5 Int] a = 10; ⇒ se ha declarado la variable a de tipo entero
@@ -682,7 +690,7 @@
            
                 p Los procedimientos pueden ser de tipo private o public, es decir, si el bloque de instrucciones solo se puede utilizar en el programa actual es private, pero si se puede utilizar en otros es public. El procedimiento suma las variables A y B retornando el resultado en la variable total. Como hay un resultado que se genera el procedimiento es una #[b.mark.t4 Función.]
 
-                p La primera instrucción indica que el procedimiento que se va a realizar se llama limpiar el cual es de tipo privado (private) y retorna un valor nulo (void),  en las cajas de texto (txt) de las variables A,B y total. Obsérvese que como el procedimiento no devuelve un valor, entonces es un método.
+                p La primera instrucción indica que el procedimiento que se va a realizar se llama limpiar el cual es de tipo privado #[i (private)] y retorna un valor nulo #[i (void)],  en las cajas de texto #[i (txt)] de las variables A,B y total. Obsérvese que como el procedimiento no devuelve un valor, entonces es un método.
 
     .row.justify-content-start.mb-4 
       .col-auto(data-aos="flip-down")
@@ -712,7 +720,7 @@
         img.img-t.img-a(src='@/assets/curso/temas/85.svg')    
 
       div(titulo="Estructura de control condicional") 
-        p Permite que se ejecuten instrucciones siempre y cuando se cumpla una condición y el formato de la sintaxis se escribe con los códigos if y else.
+        p Permite que se ejecuten instrucciones siempre y cuando se cumpla una condición y el formato de la sintaxis se escribe con los códigos #[i if] y #[i else].
         p Ejemplo: en lenguaje C#: 
         ul.lista-ul.fa-ul
           li 
@@ -727,7 +735,7 @@
         img.img-t.img-a(src='@/assets/curso/temas/86.svg')  
 
       div(titulo="Estructura repetitiva") 
-        p Permite que se ejecuten un bloque de instrucciones varias veces hasta que se cumpla una condición. La sintaxis es se escribe con el código while (mientras).
+        p Permite que se ejecuten un bloque de instrucciones varias veces hasta que se cumpla una condición. La sintaxis es se escribe con el código #[i while] (mientras).
         p Ejemplo: en lenguaje C#:
         ul.lista-ul.fa-ul
           li 
@@ -739,7 +747,7 @@
         img.img-t.img-a(src='@/assets/curso/temas/87.svg')                              
 
 
-    p(data-aos="fade-down") Para complementar el aprendizaje de las temáticas se recomienda la lectura de los textos Documentación de C# y Fundamentos del lenguaje C#, los cuales se encuentran en el material complementario
+    p(data-aos="fade-down") Para complementar el aprendizaje de las temáticas se recomienda la lectura de los textos #[b Documentación de C# y Fundamentos del lenguaje C#], los cuales se encuentran en el material complementario
 
     Separador 
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -771,14 +779,14 @@
       .col-lg-10
         p(data-aos="fade-down") Es entonces una acción que es ejecutada sobre un objeto del programa y que es provocada por el usuario al interactuar con la interfaz de este (programa), recuérdese que la interfaz es la pantalla inicial que el usuario visualiza y en la cual puede llevar a cabo acciones. 
 
-        p(data-aos="fade-down") Cuando se estén escribiendo las líneas de código se deben tener en cuenta los eventos que se pueden dar sobre los objetos creados dentro del programa; por ejemplo cuando el usuario hace clic sobre un botón ocurre algo al interior del sistema que hace que se active alguna función determinada. #[b.t1 Los eventos incluyen:]  
+        p(data-aos="fade-down") Cuando se estén escribiendo las líneas de código se deben tener en cuenta los eventos que se pueden dar sobre los objetos creados dentro del programa; por ejemplo, cuando el usuario hace clic sobre un botón ocurre algo al interior del sistema que hace que se active alguna función determinada. #[b.t1 Los eventos incluyen:]  
       .col-lg-2
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/88.svg')  
 
     .row.justify-content-center          
       .col-lg-3.my-4(data-aos="fade-down")
         .bg21.text-center.p-4.j.h-100 
-          p.mb-0 Mouse 
+          p.mb-0.fst-italic Mouse 
       .col-lg-3.my-4(data-aos="fade-down")
         .bg21.text-center.p-4.j.h-100 
           p.mb-0 Teclado  
@@ -826,7 +834,7 @@
           img(src='@/assets/curso/temas/74.png' alt='')
           .tarjeta.color-primario.bg13
             .p-4.text-center.pt-5                           
-              p.mb-0 La interfaz del programa es mas amigable ya que ofrece opciones como botones, menús, ventanas, casillas de verificación, entre otras y los usuarios pueden escoger cual de estos utilizar para navegar en él.    
+              p.mb-0 La interfaz del programa es más amigable ya que ofrece opciones como botones, menús, ventanas, casillas de verificación, entre otras y los usuarios pueden escoger cual de estos utilizar para navegar en él.    
 
     .row.bg22.align-items-center.py-0.mb-5(data-aos="zoom-in")
       .col-lg-12.col-12.px-lg-5.px-4 
@@ -839,64 +847,81 @@
             .row.justify-content-center(titulo="Evento")
               .col-lg-4
                 p En el programa Unity, dar clic en la ventana de jerarquía 
-                p Clic en la opción UI (Interfaz de Usuario)
-                p Clic en la opción Button           
+                p Clic en la opción #[i UI] (Interfaz de Usuario)
+                p Clic en la opción #[i Button]           
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/90.png')  
             .row.justify-content-center(titulo="Botón")
               .col-lg-4
                 p Una vez creado el botón en la ventana de jerarquía se adiciona el objeto creado dentro de la plantilla Canvas y se pueden realizar las siguientes opciones:
-                p Doble clic en la ventana de jerarquía en la opción Button
-                p Clic en el botón del menú para cambiar el tamaño arrastrando los puntos de los extremos 
-                p Doble clic en la ventana de jerarquía en la opción Text para cambiar el nombre del botón que este caso se va a llamar Exit.         
+                ul.lista-ul.fa-ul
+                  li 
+                    i.fas.fa-gamepad.t2
+                    | Doble clic en la ventana de jerarquía en la opción #[i Button]
+                  li.ps-3 
+                    i.fas.fa-gamepad.t2
+                    | Clic en el botón del menú para cambiar el tamaño arrastrando los puntos de los extremos 
+                  li.ps-5 
+                    i.fas.fa-gamepad.t2
+                    | Doble clic en la ventana de jerarquía en la opción Text para cambiar el nombre del botón que este caso se va a llamar Exit.         
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/91.png')   
-            .row.justify-content-center(titulo="Script")
+            .row.justify-content-center(titulo="<i>Script</i>")
               .col-lg-4
-                p Ya creado el botón debe asociarse la acción que va a realizar, que en este caso es salir y para ello se crea un script o líneas de código :
-                p Clic en menú Assets
-                p Clic en la opción Create
-                p Clic en la opción C# Script            
+                p Ya creado el botón debe asociarse la acción que va a realizar, que en este caso es salir y para ello se crea un #[i script] o líneas de código :
+                ul.lista-ul.fa-ul
+                  li 
+                    i.fas.fa-gamepad.t2
+                    span Clic en menú #[i Assets]
+                  li.ps-3 
+                    i.fas.fa-gamepad.t2
+                    span Clic en la opción #[i Create]
+                  li.ps-5 
+                    i.fas.fa-gamepad.t2
+                    span Clic en la opción C# #[i Script]            
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/92.png')  
-            .row.justify-content-center(titulo="Archivo script")
+            .row.justify-content-center(titulo="Archivo <i>script</i>")
               .col-lg-4
-                p Ya creado el botón debe asociarse la acción que va a realizar, que en este caso es salir y para ello se crea un script o líneas de código :
-                p Clic en menú Assets
-                p Clic en la opción Create
-                p Clic en la opción C# Script            
+                p En la parte inferior en la ventana de proyecto se crea el archivo donde vamos a escribir las líneas de código, en este caso se le colocó el nombre #[i Salir] y en la ventana del inspector se muestra unas instrucciones con la estructura básica del programa:          
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/93.png')   
             .row.justify-content-center(titulo="Editor")
               .col-lg-4
-                p En la parte inferior en la ventana de proyecto se crea el archivo donde vamos a escribir las líneas de código, en este caso se le colocó el nombre Salir y en la ventana del inspector se muestra unas instrucciones con la estructura básica del programa:            
+                p Al hacer doble clic en el archivo C# denominado Salir se abre la ventana del editor Visual Studio en el cual se podrán escribir las líneas de código que ejecutarán la acción de salir.  
+
+                p En este caso se ha declarado una función  de tipo pública (#[i.t1 public]), es decir, que se puede utilizar en cualquier y por otros programas y además tiene la característica #[i.t1 void], que quiere decir, no devuelve ningún tipo de valor sino que ejecuta la acción. La sentencia #[i.t1 Application].Quit ejecuta la acción de abandonar.   
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/94.png') 
             .row.justify-content-center(titulo="Asociar")
               .col-lg-4
-                p Al hacer doble clic en el archivo C# denominado Salir se abre la ventana del editor Visual Studio en el cual se podrán escribir las líneas de código que ejecutarán la acción de salir.  
-
-                p En este caso se ha declarado una función  de tipo pública (#[i.t1 public]), es decir, que se puede utilizar en cualquier y por otros programas y además tiene la característica #[i.t1 void], que quiere decir, no devuelve ningún tipo de valor sino que ejecuta la acción. La sentencia #[i.t1 Application].Quit ejecuta la acción de abandonar.            
+                p Una vez construida la línea de código se debe anexar el evento en el inspector para que pueda ser ejecutado posteriormente. 
+                ul.lista-ul.fa-ul
+                  li 
+                    i.fas.fa-gamepad.t2
+                    span En la barra #[b.t5 1] On Click () se debe asociar la función del evento
+                  li.ps-3 
+                    i.fas.fa-gamepad.t2
+                    span Clic en #[b.t5 2] el signo + para agregar la función salir
+                  li.ps-5 
+                    i.fas.fa-gamepad.t2
+                    span En el botón Runtime Only se ha agregado la función Salir #[b.t5 (3)]             
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/95.png')   
             .row.justify-content-center(titulo="Juego")
               .col-lg-4
-                p Una vez construida la línea de código se debe anexar el evento en el inspector para que pueda ser ejecutado posteriormente. 
-
-                p En la barra #[b.t5 1] On Click () se debe asociar la función del evento
-                p Clic en #[b.t5 2] el signo + para agregar la función salir
-                p En el botón Runtime Only se ha agregado la función Salir #[b.t5 (3)]            
+                p Cuando la función está lista para ser utilizada se observa en modo #[i Game] y no en modo escena para visualizar como se verá el botón del evento en la interfaz del usuario para que pueda ser accionado por éste.
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/96.png')
 
 
     Separador 
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 2.5 Estructura básica de un #[i script] de Unity3D 
+      h2 2.5 Estructura básica de un #[i script] de Unity 3D 
 
     .row.justify-content-center.align-items-center.mb-4     
       .col-lg-10
-        p(data-aos="fade-down") El lenguaje de programación que se utiliza en Unity es el lenguaje C# y a las líneas de código que lo configuran se les llama Scripts, las cuales consisten en una secuencia de instrucciones que se escriben en un editor de texto que es adjuntado en Unity al hacer su instalación en el PC; este editor de escritura es el Visual Studio. 
+        p(data-aos="fade-down") El lenguaje de programación que se utiliza en Unity es el lenguaje C# y a las líneas de código que lo configuran se les llama #[i Scripts], las cuales consisten en una secuencia de instrucciones que se escriben en un editor de texto que es adjuntado en Unity al hacer su instalación en el PC; este editor de escritura es el Visual Studio. 
 
         p(data-aos="fade-down") El objeto de escribir líneas de código en Unity es para asignarle comportamientos específicos a los componentes del juego (#[i GameObjects]), crear eventos y desarrollar funciones que controlen acciones determinadas.
 
@@ -907,22 +932,22 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg6")
       .row.justify-content-center(titulo="Variables")      
         .col-lg-8.my-3
-          p Como se mencionó antes son espacios reservados en la memoria para almacenar valores de diferentes tipos, ya se vio en los anteriores apartados su tipología (numéricos, lógicos, alfanuméricos), pero en Unity también hay tipos de datos de referencia que se aplican a los objetos como Transform y Light que se visualizan en la ventana del Inspector; donde la primera trata con aspectos de posición, rotación y tamaño del objeto y la segunda con efectos de iluminación. 
-          p Las variables deben ser declaradas al comienzo del bloque de las líneas de código definiendo si van a ser públicas o privadas. Una variable pública es aquella que puede ser utilizada por otros scripts y cambiar su valor porque es accesible para ellos ya que aparece en la ventana del Inspector y una variable privada es aquella que solo puede ser utilizada dentro de una misma clase (ya se verá este término a continuación) y dentro de un mismo método o función y no puede ser visualizada en el Inspector porque sus valores no son manipulables por otros scripts.
+          p Como se mencionó antes son espacios reservados en la memoria para almacenar valores de diferentes tipos, ya se vio en los anteriores apartados su tipología (numéricos, lógicos, alfanuméricos), pero en Unity también hay tipos de datos de referencia que se aplican a los objetos como #[i Transform y Light] que se visualizan en la ventana del Inspector; donde la primera trata con aspectos de posición, rotación y tamaño del objeto y la segunda con efectos de iluminación. 
+          p Las variables deben ser declaradas al comienzo del bloque de las líneas de código definiendo si van a ser públicas o privadas. Una #[b variable pública] es aquella que puede ser utilizada por otros #[i scripts] y cambiar su valor porque es accesible para ellos ya que aparece en la ventana del Inspector y una #[b variable privada] es aquella que solo puede ser utilizada dentro de una misma clase (ya se verá este término a continuación) y dentro de un mismo método o función y no puede ser visualizada en el Inspector porque sus valores no son manipulables por otros #[i scripts].
 
           p Cuando se codifica una variable se debe tener en cuenta aspectos de nomenclatura como que el nombre no debe empezar por un número y  no debe tener espacios.          
         .col-lg-4.my-3
           img.img-t.img-a(src='@/assets/curso/temas/98.png') 
       .row.justify-content-center(titulo="Funciones")      
         .col-lg-12.my-3
-          p Una función en Unity es un procedimiento que realiza acciones sobre un objeto, a la función también se le llama método y consiste en un bloque de líneas de código que hacen un llamado a la acción sobre los componentes en los que se aplica. Cuando se va a construir un script en Unity se activa la clase Mono Behaviour que es la clase base la cual llama funciones automáticas que se deben activar para iniciar el script como son:
+          p Una función en Unity es un procedimiento que realiza acciones sobre un objeto, a la función también se le llama método y consiste en un bloque de líneas de código que hacen un llamado a la acción sobre los componentes en los que se aplica. Cuando se va a construir un #[i script] en Unity se activa la clase #[i Mono Behaviour] que es la clase base la cual llama funciones automáticas que se deben activar para iniciar el #[i script] como son:
 
-          p #[b Awake:] función que se encarga de llamar a todas las variables declaradas en el script y que necesitan ser inicializadas con un valor. 
-          p #[b Start:]  función que es llamada para inicializar el procedimiento.
-          p #[b Update:] función que se utiliza para el movimiento de los objetos sin utilizar el método física de Unity y se repite cada vez que se necesite para actualizar el estado de este.
-          p #[b FixedUpdate:] función que se utiliza para controlar objetos cuando dependen de la física.
+          p #[b.fst-italic Awake:] función que se encarga de llamar a todas las variables declaradas en el #[i script] y que necesitan ser inicializadas con un valor. 
+          p #[b.fst-italic Start:]  función que es llamada para inicializar el procedimiento.
+          p #[b.fst-italic Update:] función que se utiliza para el movimiento de los objetos sin utilizar el método física de Unity y se repite cada vez que se necesite para actualizar el estado de este.
+          p #[b.fst-italic FixedUpdate:] función que se utiliza para controlar objetos cuando dependen de la física.
         .col-lg-5.my-3          
-          p #[b Ejemplo:] en la siguiente escena en Unity se van a adicionar unas líneas de código para crear un evento sobre el plano y el cubo para lo cual se creó un archivo #[i script] “#[i TestClick]”  que al ser llamado desplegó en la ventana del Inspector el llamado a la clase base #[i Mono Behaviour] que a su vez activo las funciones #[i Start] y #[i Update]. 
+          p #[b Ejemplo:] en la siguiente escena en Unity se van a adicionar unas líneas de código para crear un evento sobre el plano y el cubo para lo cual se creó un archivo #[i script] “#[i TestClick]”  que al ser llamado desplegó en la ventana del #[i Inspector] el llamado a la clase base #[i Mono Behaviour] que a su vez activo las funciones #[i Start] y #[i Update]. 
         .col-lg-7.my-3
           img.img-mov(src='@/assets/curso/temas/99.png')
         .col-lg-12.my-3
@@ -941,10 +966,10 @@
               i.fas.fa-gamepad.t1
               span Debe retornar un tipo de dato así sea nulo  
 
-          p #[b Ejemplo:] en el editor de texto Visual Studio se ha creado un método con identificador Multiplica, el cual contiene dos parámetros de tipo entero (a y b) cuya funcionalidad es multiplicar dos números. El resultado que debe retornar el método ( c ) es de tipo entero.  
+          p #[b Ejemplo:] en el editor de texto Visual Studio se ha creado un método con identificador #[i Multiplica], el cual contiene dos parámetros de tipo entero (a y b) cuya funcionalidad es multiplicar dos números. El resultado que debe retornar el método ( c ) es de tipo entero.  
         .col-lg-5.my-3
-          p El método Multiplica es de tipo publico es decir puede ser utilizado en otros scripts y el nombre del archivo es TestClick. cs y el programa ha llamado la clase MonoBehaviour que contiene las funciones de inicialización por defecto:
-          p public class TestClick.cs : MonoBehaviour &#123; 
+          p El método #[i Multiplica] es de tipo público es decir puede ser utilizado en otros #[i scripts] y el nombre del archivo es #[i TestClick.cs] y el programa ha llamado la clase #[i MonoBehaviour] que contiene las funciones de inicialización por defecto:
+          p #[i public class TestClick.cs : MonoBehaviour &#123;] 
         .col-lg-7.my-3
           img.img-mov(src='@/assets/curso/temas/100.png') 
 
@@ -956,21 +981,21 @@
 
           p Las clases cumplen con las características de abstraccionismo, encapsulamiento, heredad y polimorfismo propias de la Programación Orientada a Objetos – POO-. Algunas de las clases más importantes que se encuentran en el motor de Unity son: 
         .col-lg-7.my-3          
-          p Cuando se están escribiendo líneas de código y se crean  varias clases para los objetos las cuales van agrupar diferentes atributos, entonces se utiliza lo que se llama “Espacios de nombres”; para organizar clases dentro de un mismo entorno, agrupándolas para darle una mejor estructura al script y evitar confusiones cuando el motor de Unity haga la compilación de las instrucciones para ser ejecutadas.
+          p Cuando se están escribiendo líneas de código y se crean  varias clases para los objetos las cuales van agrupar diferentes atributos, entonces se utiliza lo que se llama “Espacios de nombres”; para organizar clases dentro de un mismo entorno, agrupándolas para darle una mejor estructura al #[i script] y evitar confusiones cuando el motor de Unity haga la compilación de las instrucciones para ser ejecutadas.
 
-          p #[b Ejemplo:] Crear un Script e identificar los espacios de nombres. 
+          p #[b Ejemplo:] Crear un #[i Script] e identificar los espacios de nombres. 
 
-          p Para crear el Script hay dos formas: 
-          p Assets > Create > C# Script 
-          p Project > Create > C# Script
+          p Para crear el #[i Script] hay dos formas: 
+          p Assets > Create > C# #[i Script] 
+          p Project > Create > C# #[i Script]
         .col-lg-5.my-3
           img.img-a.img-t(src='@/assets/curso/temas/102.svg')          
         .col-lg-5.my-3          
-          p Se ha creado entonces un archivo llamado NewBehaviourScript.cs que es el nombre por defecto, el cual puede ser cambiado por el que el usuario necesite para identificar las acciones que realiza.
+          p Se ha creado entonces un archivo llamado #[i NewBehaviourScript.cs] que es el nombre por defecto, el cual puede ser cambiado por el que el usuario necesite para identificar las acciones que realiza.
 
-          p #[b using System.Collections:]  esta línea de Script significa que se declara una clase llamada Collections la cual agrupara diferentes objetos dependiendo de sus atributos y funciones. 
-          p #[b using System.Collections.Generic:] dentro de la clase Collections hay elementos que son de un solo tipo. Esto quiere decir que cuando se recupera un elemento de esta clase no hay que definirle el tipo.
-          p #[b using UnityEngine:] permite que el Script herede de la clase MonoBehavour todas las funciones como awake, start, update, Transform, Light, entre otras. 
+          p #[b.fst-italic using System.Collections:]  esta línea de #[i Script] significa que se declara una clase llamada Collections la cual agrupara diferentes objetos dependiendo de sus atributos y funciones. 
+          p #[b.fst-italic using System.Collections.Generic:] dentro de la clase Collections hay elementos que son de un solo tipo. Esto quiere decir que cuando se recupera un elemento de esta clase no hay que definirle el tipo.
+          p #[b.fst-italic using UnityEngine:] permite que el #[i Script] herede de la clase #[i MonoBehavour] todas las funciones como #[i awake, start, update, Transform, Light], entre otras. 
         .col-lg-7.my-3
           img.img-mov(src='@/assets/curso/temas/101.png')                    
 
@@ -994,10 +1019,10 @@
                 ul.lista-ul.fa-ul
                   li 
                     i.fas.fa-gamepad.t1
-                    span Clic en la opción de menú GameObject
+                    span Clic en la opción de menú #[i GameObject]
                   li 
                     i.fas.fa-gamepad.t1
-                    span Clic en la opción UI
+                    span Clic en la opción #[i UI]
                   li 
                     i.fas.fa-gamepad.t1
                     span Clic en la opción Canvas          
@@ -1014,17 +1039,17 @@
                 ul.lista-ul.fa-ul.ps-2
                   li 
                     i.fas.fa-gamepad.t1
-                    span opción Screen Space – Overlay indica que la plantilla de Canvas se ajustara al tamaño de la pantalla. 
+                    span opción #[i Screen Space] – Overlay indica que la plantilla de Canvas se ajustara al tamaño de la pantalla. 
                   li 
                     i.fas.fa-gamepad.t1
-                    span opción Screen Space – Camera indica que la plantilla de Canvas se ajustara para encajar en el plano de la cámara.
+                    span opción #[i Screen Space] – Camera indica que la plantilla de Canvas se ajustara para encajar en el plano de la cámara.
                   li 
                     i.fas.fa-gamepad.t1
-                    span opción World Space –indica que la plantilla de Canvas tratara la imagen como un objeto plano en la escena.
+                    span opción #[i World Space] –indica que la plantilla de Canvas tratara la imagen como un objeto plano en la escena.
 
-                p #[b.fst-italic 3 Canvas Scaler (Script):] tiene que ver con la densidad del pixel de los elementos que se coloquen dentro de la plantilla, esto hace que se vea con mayor o menor resolución.
+                p #[b.fst-italic 3 Canvas Scaler (#[i Script]):] tiene que ver con la densidad del pixel de los elementos que se coloquen dentro de la plantilla, esto hace que se vea con mayor o menor resolución.
 
-                p #[b.fst-italic 4 Graphic Raycaster (Script):] controla los elementos gráficos teniendo en cuenta los que se colocan en el fondo o delante.           
+                p #[b.fst-italic 4 Graphic Raycaster (#[i Script]):] controla los elementos gráficos teniendo en cuenta los que se colocan en el fondo o delante.           
               .col-lg-4            
                 img.img-mov(src='@/assets/curso/temas/106.png')   
 
@@ -1034,30 +1059,30 @@
 
         .tarjeta.tarjeta--gris.p-4.mb-5
           LineaTiempoC.color-primario
-            .row.justify-content-center(titulo="Paso 1")
+            .row.justify-content-center(titulo="Paso 3")
               .col-lg-4
                 p Después que se ha llamado la plantilla Canvas se realiza:
                 ul.lista-ul.fa-ul
                   li 
                     i.fas.fa-gamepad.t1
-                    span Clic derecho del mouse en el componente Canvas de la ventana de jerarquía
+                    span Clic derecho del #[i mouse] en el componente Canvas de la ventana de jerarquía
                   li 
                     i.fas.fa-gamepad.t1
-                    span Clic en UI
+                    span Clic en #[i UI]
                   li 
                     i.fas.fa-gamepad.t1
-                    span Clic en Button         
+                    span Clic en #[i Button]         
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/107.png')     
 
-            .row.justify-content-center(titulo="Paso 2")
+            .row.justify-content-center(titulo="Paso 4")
               .col-lg-4
                 p Una vez añadido el botón al área de la escena y dentro de Canvas, realizar:
 
                 ul.lista-ul.fa-ul
                   li 
                     i.fas.fa-gamepad.t1
-                    span Doble clic sobre Button de la ventana de jerarquía para activar texto
+                    span Doble clic sobre #[i Button] de la ventana de jerarquía para activar texto
                   li 
                     i.fas.fa-gamepad.t1
                     span Escribir la palabra Inicio de sesión dentro del cajón de texto del Inspector
@@ -1065,20 +1090,20 @@
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/108.png') 
 
-        p(data-aos="fade-down").mb-5 Para profundizar en la ventana del Inspector del Canvas y en las temáticas de programación en Unity3D se recomienda consultar los siguientes sitios web:
+        p(data-aos="fade-down").mb-5 Para profundizar en la ventana del Inspector del Canvas y en las temáticas de programación en Unity 3D se recomienda consultar los siguientes sitios web:
 
         .row.justify-content-center.align-items-center    
           .col-lg-10
             .bg24.brad.py-4.px-5
               .row.justify-content-center    
                 .col-lg-6.my-2        
-                  a.anexo.mb-lg-0.j.h-100(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                  a.anexo.mb-lg-0.j.h-100(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=10409" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p #[b Enlace web.] López, B. (s.f.) Fundamentos de programación.                       
+                      p #[b Enlace web.] Joyanes Aguilar, L. (2020). Fundamentos de programación: algoritmos, estructura de datos y objetos. McGraw-Hill.                    
                 .col-lg-6.my-2        
-                  a.anexo.mb-lg-0.h-100.j(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                  a.anexo.mb-lg-0.h-100.j(href="https://docs.unity.com/" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
@@ -1178,7 +1203,7 @@
 
           .col-lg-5
             AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta bg61")
-              .row.justify-content-center.align-items-center(titulo="Ciclo For") 
+              .row.justify-content-center.align-items-center(titulo="Ciclo <i>For</i>") 
                 .col-lg-9
                   p for (int i = 1; i <= 10; i++)
                   p {
@@ -1186,7 +1211,7 @@
                   p }                          
                 .col-lg-3          
                   img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/112.png')  
-              .row.justify-content-center.align-items-center(titulo="Ciclo Foreach") 
+              .row.justify-content-center.align-items-center(titulo="Ciclo <i>Foreach</i>") 
                 .col-lg-9 
                   p string[ ] ciudades= { "Pereira", "Armenia", "Bogotá", "Medellín", "Cali", "Barranquilla" };
 
@@ -1195,7 +1220,7 @@
                   p Debug.Log(ciudad);                         
                 .col-lg-3          
                   img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/112.png')  
-              .row.justify-content-center.align-items-center(titulo="Ciclo While") 
+              .row.justify-content-center.align-items-center(titulo="Ciclo <i>While</i>") 
                 .col-lg-9
                   p string[ ] ciudades= { "Pereira", "Armenia", "Bogotá", "Medellín", "Cali", "Barranquilla" };
 
@@ -1226,7 +1251,7 @@
         .bg26.p-2
           h4.mb-0 Crear listas en Unity
 
-    p(data-aos="fade-down").mb-5 Para utilizar listas en Unity, es necesario importar la biblioteca System.Collections.Generic. Para crear una nueva lista, debe usarse la palabra List seguida de corchetes angulares <>, dentro de los cuales se indica el tipo de datos de los elementos de la lista. Luego, se necesita crear una instancia empleando la palabra clave new seguida del constructor de la clase   
+    p(data-aos="fade-down").mb-5 Para utilizar listas en Unity, es necesario importar la biblioteca #[i System.Collections.Generic.] Para crear una nueva lista, debe usarse la palabra #[i List] seguida de corchetes angulares <>, dentro de los cuales se indica el tipo de datos de los elementos de la lista. Luego, se necesita crear una instancia empleando la palabra clave #[i new] seguida del constructor de la clase   
 
     .row.justify-content-center.align-items-center.mb-4           
       .col-lg-4
@@ -1240,14 +1265,14 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center.bg27.mb-4           
           .col-lg-8.my-3
-            p(data-aos="fade-down") Por ejemplo:  
+            h4(data-aos="fade-down") Por ejemplo:  
             p(data-aos="fade-down") List&#60;int&#62; valores=new List&#60;int&#62;{4,1,3,7};
 
-            p(data-aos="fade-down") Igualmente se pueden agregar nuevos elementos a través del método Add
+            p(data-aos="fade-down") Igualmente se pueden agregar nuevos elementos a través del método #[i Add]
 
             p(data-aos="fade-down") valores.Add(20) //agrega un nuevo elemento a la lista
 
-            p(data-aos="fade-down") Las listas igualmente se pueden adicionar una a otra a través del método AddRange
+            p(data-aos="fade-down") Las listas igualmente se pueden adicionar una a otra a través del método #[i AddRange]
 
             p(data-aos="fade-down") List&#60;int&#62; valores=new List&#60;int&#62;{4,1,3,7};
             p(data-aos="fade-down") List&#60;int&#62; otrosvalores=new List&#60;int&#62;{5,9,2,8};

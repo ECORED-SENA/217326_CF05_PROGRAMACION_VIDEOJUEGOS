@@ -12,9 +12,9 @@
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 23.
-          span Explosion hollow knight
+          span Explosion #[i hollow knight]
         img.img-t.img-a.mb-1(data-aos="zoom-in")(src='@/assets/curso/temas/17.png',alt="La imagen muestra una escena del videojuego Hollow Knight. Se observa al personaje principal en el aire, posiblemente después de ejecutar un ataque, con una explosión de energía en el fondo que ilumina la escena.") 
-        figcaption Nota. Ejemplo efecto visual. Interfaceingame (s.f.).
+        figcaption Nota. Ejemplo efecto visual. #[i Interfaceingame] (s.f.).
 </template>
 
 <script>
