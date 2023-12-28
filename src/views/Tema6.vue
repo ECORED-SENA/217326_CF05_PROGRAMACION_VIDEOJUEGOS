@@ -132,27 +132,27 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            | Permite crear una variedad de elementos para el proyecto.
+            span Permite crear una variedad de elementos para el proyecto.
           li 
             .lista-ol--cuadro__vineta
               span 2
-            | En la #[i assets ]se pueden agregar elementos y organizarlos por carpetas.  También se puede usar la sección de favoritos en la cual estarán los elementos más utilizados.
+            span En la #[i assets ]se pueden agregar elementos y organizarlos por carpetas.  También se puede usar la sección de favoritos en la cual estarán los elementos más utilizados.
           li 
             .lista-ol--cuadro__vineta
               span 3
-            | Se pueden ver los elementos disponibles, las carpetas, sonidos, modelos, entre otros.
+            span Se pueden ver los elementos disponibles, las carpetas, sonidos, modelos, entre otros.
           li 
             .lista-ol--cuadro__vineta
               span 4
-            | Este #[i slider] permite aumentar o reducir el tamaño de los #[i assets ]que se tienen en la sección del ítem 3.
+            span Este #[i slider] permite aumentar o reducir el tamaño de los #[i assets ]que se tienen en la sección del ítem 3.
           li 
             .lista-ol--cuadro__vineta
               span 5
-            | Permite buscar elementos por su nombre. 
+            span Permite buscar elementos por su nombre. 
           li.mb-0 
             .lista-ol--cuadro__vineta
               span 6
-            | El candado bloquea la ventana, así no será posible su modificación. Con el símbolo de los 3 puntos se pueden agregar columnas u otro tipo de ventanas.   
+            span El candado bloquea la ventana, así no será posible su modificación. Con el símbolo de los 3 puntos se pueden agregar columnas u otro tipo de ventanas.   
 
     .row.justify-content-start.mb-4 
       .col-auto(data-aos="flip-down")
@@ -169,7 +169,7 @@
       h5 Figura 12.
       span #[i Scene View] 
     img.img-t.img-a.mb-1(data-aos="zoom-in")(src='@/assets/curso/temas/189.png',alt="La figura muestra la interfaz de un programa de desarrollo de juegos de Unity,  donde presenta los Botones de activación. ") 
-    figcaption.mb-5 Nota. Elemento ventana Scene View.
+    figcaption.mb-5 Nota. Elemento ventana #[i Scene View].
 
     .row.justify-content-center.align-items-center.mb-4  
       .col-lg-10.my-3

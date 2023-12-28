@@ -20,28 +20,7 @@
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad1/actividad.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
-                
-    hr.mb-5 
 
-    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-        .tarjeta.h-100.d-flex.align-items-center.p-4
-          figure
-            img(src="@/assets/template/Seleccion_Multiple.svg", alt="")
-      .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 Unity y sus herramientas
-
-        p.mb-4 Manejar la interfaz de Unity, aplicando todos los elementos y herramientas que la componen para el desarrollo de escenarios en la creación de videojuegos.
-
-        .tarjeta.actividad.p-3
-          .row.justify-content-around.align-items-center            
-            .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Selección múltiple
-            .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad2/actividad.html')" target="_blank")
-                span Realizar
-                i.fas.fa-puzzle-piece                    
 </template>
 
 <script>

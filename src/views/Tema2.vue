@@ -385,14 +385,10 @@
               li 
                 .lista-ol--cuadro__vineta
                   span e
-                span Verdadera la cual debe tener encima la palabra SI y la otra en el caso contrario y a la cual se le debe colocar encima la palabra NO.
-              li 
-                .lista-ol--cuadro__vineta
-                  span f
                 span Lo que se escriba al interior de los símbolos debe tener el menor número de palabras posibles o contener operaciones claras:  Z ← A – B.
               li.mb-0 
                 .lista-ol--cuadro__vineta
-                  span g
+                  span f
                 span El diagrama debe probarse con datos reales para verificar su funcionamiento. A esta verificación se le llama “prueba de escritorio”.                   
 
           .col-lg-2     

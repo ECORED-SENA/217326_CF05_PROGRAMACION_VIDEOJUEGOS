@@ -234,7 +234,7 @@
       .tarjeta.color-acento-botones.p-3(x="76%" y="50%" numero="+")
         p.mb-0 Es el equipo encargado de ejecutar las tareas de cada iteración para entregar un incremento del producto de acuerdo con las especificaciones entregadas por el #[i Product Owner]. Organizan y gestionan su propio trabajo y están conformados por el número de personas necesarias para lograr el cumplimiento de los objetivos trazados.   
 
-    p(data-aos="fade-down").mb-5 Para complementar el tema, se recomienda realizar la lectura #[b.t1 Metodología], la cual e encuentra en el material complementario. 
+    p(data-aos="fade-down").mb-5 Para complementar el tema, se recomienda realizar la lectura #[b.t1 Metodología Scrum], la cual e encuentra en el material complementario. 
 
     Separador 
     #t_1_3.titulo-segundo.color-acento-contenido.mb-0(data-aos="zoom-in-left")
