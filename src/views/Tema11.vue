@@ -47,23 +47,23 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg6")
       .row.justify-content-center(titulo="Paso 1: image")
         .col-lg-4.mb-4.mb-md-0
-          p Para empezar, lo primero que se debe hacer es ir a la pestaña #[i GameObject – UI – Image], como se presenta en la siguiente figura.  En la pestaña #[i hierarchy] aparece un nuevo elemento llamado canvas, el cual contiene el elemento #[i image] y el evento #[i system].
+          p Para empezar, lo primero que se debe hacer es ir a la pestaña #[i GameObject – UI – Image], como se presenta en la siguiente figura.  En la pestaña #[i hierarchy] aparece un nuevo elemento llamado #[em canvas], el cual contiene el elemento #[i image] y el evento #[i system].
 
-          p Los pasos anteriores crearán un rectángulo transparente, el cual es el canvas de la #[i UI], así por ende este es el espacio donde se van a poner los elementos, luego se crea el botón desde #[i GameObjects – UI – Boton].   
+          p Los pasos anteriores crearán un rectángulo transparente, el cual es el #[em canvas] de la #[i UI], así por ende este es el espacio donde se van a poner los elementos, luego se crea el botón desde #[i GameObjects – UI – Boton].   
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/20.png')
           figcaption Nota. Ejemplo creación interfaz. 
       .row.justify-content-center(titulo="Paso 2: canva")
         .col-lg-4.mb-4.mb-md-0
-          p El canva en #[i render] mode se asigna a #[i world space] para que la interfaz aparezca siempre delante de los objetos que están en escena, como se muestra en la siguiente figura. 
+          p El canva en #[i render] mode se asigna a #[i world space] para que la interfaz aparezca siempre delante de los objetos que están en escena, como se presenta en la siguiente figura. 
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/21.png')
           figcaption Nota. Ejemplo creación interfaz – render mode. 
       .row.justify-content-center(titulo="Paso 3: texto botón")
         .col-lg-4.mb-4.mb-md-0
-          p Seleccionando en #[i hierachi] el elemento botón, se selecciona el #[i Inspector] y se agrega el texto que se quiere que aparezca en el botón, en este caso será el de comenzar juego, como se muestra a continuación: 
+          p Seleccionando en #[i hierachi] el elemento botón, se selecciona el #[i Inspector] y se agrega el texto que se quiere que aparezca en el botón, en este caso será el de comenzar juego, como se presenta a continuación: 
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/22.png')
@@ -77,21 +77,21 @@
           figcaption Nota. Ejemplo creación interfaz – barra vida. 
       .row.justify-content-center(titulo="Paso 5. <i>Slider – fill area</i>")
         .col-lg-4.mb-4.mb-md-0
-          p Luego, en el #[i Slider] se despliega #[i fill area – fill] y se cambia el color a verde para mostrar la barra de vida cuando está llena, como se muestra en la siguiente figura. 
+          p Luego, en el #[i Slider] se despliega #[i fill area – fill] y se cambia el color a verde para mostrar la barra de vida cuando está llena, como se presenta en la siguiente figura. 
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/24.png')
           figcaption Nota. Ejemplo creación interfaz – fill área. 
       .row.justify-content-center(titulo="Paso 6: <i>Slider - handle slide area</i>")
         .col-lg-4.mb-4.mb-md-0
-          p Ahora, en la tercera opción #[i handle slide] area se despliega y en #[i handle] se agrega un icono en #[i file] source para la barra de vida, como se muestra a continuación: 
+          p Ahora, en la tercera opción #[i handle slide] area se despliega y en #[i handle] se agrega un icono en #[i file] source para la barra de vida, como se presenta a continuación: 
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/25.png')
           figcaption Nota. Ejemplo creación interfaz – handle slide área.  
       .row.justify-content-center(titulo="Paso 7: <i>Slider - value</i>")
         .col-lg-4.mb-4.mb-md-0
-          p Ahora para ver el #[i Slider] en funcionamiento se puede volver a #[i Slide]r y en Inspector aumentar el valor para ver cómo se va llenando la barra de vida, como se muestra a continuación: 
+          p Ahora para ver el #[i Slider] en funcionamiento se puede volver a #[i Slide]r y en Inspector aumentar el valor para ver cómo se va llenando la barra de vida, como se presenta a continuación: 
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/26.png')

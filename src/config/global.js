@@ -336,7 +336,7 @@ export default {
       referencia:
         'Antony Morsas]. (2020, junio 26). Crea tu primer juego 2D en Unity desde cero.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=4XvfpCz_vh8&t=755s',
+      link: 'https://youtu.be/4XvfpCz_vh8?si=swea_6nC-y9npSqo',
     },
   ],
   glosario: [

@@ -85,7 +85,7 @@
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 3.
+          h5 Figura 4.
           span Representación de una clase
 
         .bg3.p-4.mb-5
@@ -134,7 +134,7 @@
         .bg21.text-center.p-4.h-100
           img.img-t.img-a.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/141.svg')
           h4 Estático	
-          p.mb-0 Son aquellos atributos que no pertenecen al objeto sino a la clase y pueden ser llamados o accedidos sin necesidad de instanciar un objeto. Son conocidos como atributos de clase. 
+          p.mb-0 Son aquellos atributos que no pertenecen al objeto, sino a la clase y pueden ser llamados o accedidos sin necesidad de instanciar un objeto. Son conocidos como atributos de clase. 
 
     p(data-aos="fade-down") Estos cualificadores también aplican a las clases y a los métodos en la programación orientada a objetos.  
 

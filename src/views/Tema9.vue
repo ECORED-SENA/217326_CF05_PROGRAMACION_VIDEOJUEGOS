@@ -8,10 +8,10 @@
       h1 Cámaras 
     .row.bg4.align-items-center.py-5
       .col-lg-12.col-12.px-lg-5.px-4
-        p(data-aos="fade-down") La cámara principal es la que se utiliza por defecto, que es la que muestra el visor de la escena general, la cual se puede rotar e interactuar con ella, desde la posición de perspectiva y el modo ortográfico, con el gizmo ubicado en la parte superior derecha se puede observar que tiene unos ejes y un cuadro amarillo. Con ellos clicando encima se puede navegar perspectiva y vista ortogonal, esto permite poder diseñar de una forma más cómoda y precisa, como se muestra la siguiente figura. 
+        p(data-aos="fade-down") La cámara principal es la que se utiliza por defecto, que es la que muestra el visor de la escena general, la cual se puede rotar e interactuar con ella, desde la posición de perspectiva y el modo ortográfico, con el gizmo ubicado en la parte superior derecha se puede observar que tiene unos ejes y un cuadro amarillo. Con ellos clicando encima se puede navegar perspectiva y vista ortogonal, esto permite poder diseñar de una forma más cómoda y precisa, como se presenta la siguiente figura. 
 
         .titulo-sexto.color-acento-contenido
-          h5 Figura 22.
+          h5 Figura 23.
           span Vista ortogonal y perspectiva  
         img.img-t.img-a.mb-1(data-aos="zoom-in")(src='@/assets/curso/temas/16.png',alt="La imagen compara dos tipos de vistas en un software de modelado 3D: una vista ortogonal a la izquierda, que no muestra perspectiva, y una vista en perspectiva a la derecha, que simula la profundidad realista.") 
         figcaption Nota. Ejemplo vista ortogonal y perspectiva. 

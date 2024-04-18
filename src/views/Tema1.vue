@@ -45,7 +45,7 @@
             i.fas.fa-quote-right
         p(data-aos="fade-down") Estas metodologías no solamente se utilizan en el sector de las TIC para el desarrollo de #[i software] y sistemas de información, también se pueden aplicar a cualquier sector productivo, proyecto que se quiera emprender o entorno donde se produzcan cambios de forma frecuente.
 
-        p(data-aos="fade-down") Existen aspectos muy marcados de las metodologías ágiles respecto a las metodologías tradicionales que dejan entrever sus características, ver tabla 1: 
+        p(data-aos="fade-down") Existen aspectos muy marcados de las metodologías ágiles respecto a las metodologías tradicionales que dejan entrever sus características, presentados en la tabla 1: 
 
 
     .titulo-sexto.color-acento-contenido
@@ -128,6 +128,9 @@
 
     p(data-aos="fade-down").mb-4 Los valores anteriores se concretaron en doce (12) principios que fueron consignados en un documento llamado #[b.t1 Manifiesto Ágil] con el objeto de que sirvan como marco de trabajo para cualquier equipo ágil:  
 
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 1.
+      span Manifiesto Ágil
     img.img-t.img-a.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/9.svg',alt="La infografía presenta un listado del Manifiesto Ágil que enuncia doce principios del desarrollo ágil. Entre estos principios están priorizar la satisfacción del cliente, aceptar cambios, promover la motivación del equipo y la comunicación directa, entre otros. ")
 
     p(data-aos="fade-down") Para complementar el tema se recomienda realizar las lecturas #[b.t1 Gestión Ágil de proyectos y Manifiesto por el Desarrollo Ágil de #[i Software]], que se encuentran en el material complementario.
@@ -170,10 +173,10 @@
             h4.mb-0 #[i Game] 
 
 
-    p(data-aos="fade-down").mb-5 En este ciclo se desarrolla la lista de requisitos que se priorizan a través de una planificación; se realiza la lista de las tareas por llevar a cabo (iteraciones); se determina el tiempo de las iteraciones que es aproximadamente de una semana (1) por actividad hasta completar un máximo de cuatro (4) por iteración, es decir, 30 días y el equipo se organizan en parejas o en las personas que sean necesarias para completarla. Los miembros del equipo se auto organizan y establecen sus propios objetivos de acuerdo con el producto que debe entregar al finalizar la iteración, revisar figura 1.
+    p(data-aos="fade-down").mb-5 En este ciclo se desarrolla la lista de requisitos que se priorizan a través de una planificación; se realiza la lista de las tareas por llevar a cabo (iteraciones); se determina el tiempo de las iteraciones que es aproximadamente de una semana (1) por actividad hasta completar un máximo de cuatro (4) por iteración, es decir, 30 días y el equipo se organizan en parejas o en las personas que sean necesarias para completarla. Los miembros del equipo se autoorganizan y establecen sus propios objetivos de acuerdo con el producto que debe entregar al finalizar la iteración, revisar figura 2.
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 1.
+      h5 Figura 2.
       span Ciclo #[i game] - Proceso realizado en cada iteración del producto  
 
     .bg3.p-4.mb-5
@@ -201,7 +204,7 @@
             p.text-start De acuerdo con las respuestas proporcionadas por los integrantes del equipo, el SCRUM #[i manager] (gestionador del proyecto) debe encargarse de hacer la inspección de los obstáculos y hacer las adaptaciones necesarias para eliminarlos, garantizando que el equipo pueda realizar las actividades para terminar la iteración. 
 
           div 
-            p Después de cada superación de obstáculos y para terminar la iteración se hace una revisión del producto con lo cual se verifica el cumplimiento de los requisitos.Finalmente el día que se tiene previsto terminar la iteración, se hace nuevamente una reunión de 1 o 2 horas con el cliente para realizar una demostración del cumplimiento de los requisitos plasmados en el producto incremental, resultado de la iteración completada. 
+            p Después de cada superación de obstáculos y para terminar la iteración se hace una revisión del producto con lo cual se verifica el cumplimiento de los requisitos. Finalmente el día que se tiene previsto terminar la iteración, se hace nuevamente una reunión de 1 o 2 horas con el cliente para realizar una demostración del cumplimiento de los requisitos plasmados en el producto incremental, resultado de la iteración completada. 
 
           div 
             p.text-start De acuerdo con las observaciones recibidas por el cliente se inspeccionan de nuevo los obstáculos que impiden la optimización del producto obtenido y se hacen las adaptaciones necesarias. El SCRUM #[i manager] junto con el equipo realiza una #[b.mark.t3 retrospectiva] del trabajo para identificar en que se puede mejorar la metodología y las técnicas utilizadas para incrementar la productividad.    
@@ -229,19 +232,19 @@
         p.mb-0 Es el responsable de entregar un producto de calidad al cliente como resultado del trabajo del resto del equipo. Es el encargado de gestionar la lista de requisitos al seleccionarlos y priorizarlos, también se asegura de que todos los miembros tengan claridad sobre ellos.   
 
       .tarjeta.color-acento-botones.p-3(x="48%" y="50%" numero="+")
-        p.mb-0 Ayuda a entender a todos los miembros del equipo sobre las reglas y valores en la realización del trabajo. Se asegura que haya claridad sobre los objetivos y el alcance del producto a desarrollar e igualmente orienta sobre cómo aplicar creatividad, auto organizarse como equipo y eliminar los impedimentos para maximizar la productividad. 
+        p.mb-0 Ayuda a entender a todos los miembros del equipo sobre las reglas y valores en la realización del trabajo. Se asegura que haya claridad sobre los objetivos y el alcance del producto a desarrollar e igualmente orienta sobre cómo aplicar creatividad, autoorganizarse como equipo y eliminar los impedimentos para maximizar la productividad. 
 
       .tarjeta.color-acento-botones.p-3(x="76%" y="50%" numero="+")
         p.mb-0 Es el equipo encargado de ejecutar las tareas de cada iteración para entregar un incremento del producto de acuerdo con las especificaciones entregadas por el #[i Product Owner]. Organizan y gestionan su propio trabajo y están conformados por el número de personas necesarias para lograr el cumplimiento de los objetivos trazados.   
 
-    p(data-aos="fade-down").mb-5 Para complementar el tema, se recomienda realizar la lectura #[b.t1 Metodología Scrum], la cual e encuentra en el material complementario. 
+    p(data-aos="fade-down").mb-5 Para complementar el tema, se recomienda realizar la lectura #[b.t1 Metodología Scrum], la cual se encuentra en el material complementario. 
 
     Separador 
     #t_1_3.titulo-segundo.color-acento-contenido.mb-0(data-aos="zoom-in-left")
       h2 1.3 Metodología SUM 
     .row.bg10.align-items-center.pt-5
       .col-lg-12.col-12.px-lg-5.px-4 
-        p(data-aos="fade-down") Es un método ágil que se basa en SCRUM para el desarrollo de proyectos, es fácilmente combinable con otras metodologías ágiles por lo que es adaptable fácilmente al desarrollo de videojuegos ya que se pueden prever y administrar los riesgos, los recursos y así mismo los resultados obtenidos. Se destacan las siguientes características:       
+        p(data-aos="fade-down") Es un método ágil que se basa en SCRUM para el desarrollo de proyectos, es fácilmente combinable con otras metodologías ágiles por lo que es adaptable fácilmente al desarrollo de videojuegos, ya que se pueden prever y administrar los riesgos, los recursos y así mismo los resultados obtenidos. Se destacan las siguientes características:       
 
         .row.justify-content-center.align-items-center.mb-5 
           .col-lg-8.my-3
@@ -269,7 +272,7 @@
           .col-lg-4     
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/43.png')
 
-        h5(data-aos="fade-down").mb-5 En la siguiente imagen se puede observar la estructura de SUM según Acerenza (2009):
+        h5(data-aos="fade-down").mb-5 En la siguiente imagen se presenta la estructura de SUM según Acerenza (2009):
 
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
@@ -282,15 +285,15 @@
             p.mb-0 Esta fase termina con un boceto o prototipo que resume el concepto del producto, que en el caso del videojuego contiene el nombre, la historia, el entorno y los personajes que harán parte de este.  
           .tarjeta.color-acento-botones.p-3(x="23.5%" y="29.5%" numero="+")
             h5 Planificación
-            p Tiene que ver con la preparación de las actividades que se deben llevar a cabo para la ejecución del proyecto. La planificación administrativa se encarga de organizar todos los aspectos para el cumplimiento de los objetivos del proyecto como el equipo de desarrollo, el cronograma y el presupuesto.
+            p Tiene que ver con la preparación de las actividades que se deben llevar a cabo para la ejecución del proyecto. La planificación administrativa se encarga de organizar todos los aspectos para el cumplimiento de los objetivos del proyecto, como el equipo de desarrollo, el cronograma y el presupuesto.
             p.mb-0 Las especificaciones del proyecto, que este caso es el desarrollo de un videojuego, es la definición de todos los requisitos y funcionalidades que tendrá al igual que su priorización. 
           .tarjeta.color-acento-botones.p-3(x="23.5%" y="50%" numero="+")
             h5 Elaboración
-            p En esta etapa se refinan los requisitos seleccionándolos y priorizándolos de nuevo para comenzar con el desarrollo de la iteración; se monitorea el cumpliendo de los objetivos de la iteración aplicando técnicas de evaluación definidas con anterioridad. 
-            p.mb-0 Para cerrar la iteración se le muestra al cliente lo obtenido, se da por culminada la iteración y se planifica la siguiente.  
+            p En esta etapa se refinan los requisitos seleccionándolos y priorizándolos de nuevo para comenzar con el desarrollo de la iteración; se monitorea el cumplimiento de los objetivos de la iteración aplicando técnicas de evaluación definidas con anterioridad. 
+            p.mb-0 Para cerrar la iteración, se le muestra al cliente lo obtenido, se da por culminada la iteración y se planifica la siguiente.  
           .tarjeta.color-acento-botones.p-3(x="23.5%" y="70.3%" numero="+")
             h5 Beta
-            p.mb-0 Antes de liberar la versión del producto se verifican la totalidad de sus funcionalidades, se hace un reporte de los ajustes que se deben realizar para dejarlo a punto, se ejecutan los cambios y posteriormente se hace la publicación y distribución.   
+            p.mb-0 Antes de liberar la versión del producto, se verifica la totalidad de sus funcionalidades, se hace un reporte de los ajustes que se deben realizar para dejarlo a punto, se ejecutan los cambios y posteriormente se hace la publicación y distribución.   
           .tarjeta.color-acento-botones.p-3(x="23.5%" y="90.5%" numero="+")
             h5 Cierre 
             p.mb-0 En esta fase se libera la versión del producto que ha sido ajustada de acuerdo con las verificaciones y se hace una evaluación de lo sucedido durante el desarrollo, teniendo en cuenta las dificultades presentadas y los logros alcanzados para documentar las lecciones aprendidas y mejorar la productividad del equipo.    
@@ -307,13 +310,13 @@
             .tarjeta.color-primario.bg11
               .p-4.text-center.pt-5                           
                 h4 Cliente
-                p.mb-0 Se encarga de validar el concepto definido para el producto, priorizando los requisitos que le dan mayor valor; evalúa el producto al final de cada iteración haciendo la retroalimentación y proponiendo los cambios a realizar para que se vaya acercando a lo que se definió en el concepto. Valida las versiones que se van a liberar. 
+                p.mb-0 Se encarga de validar el concepto definido para el producto, priorizando los requisitos que le dan mayor valor; evalúa el producto al final de cada iteración, haciendo la retroalimentación y proponiendo los cambios a realizar para que se vaya acercando a lo que se definió en el concepto. Valida las versiones que se van a liberar. 
           .tarjeta-avatar
             img(src='@/assets/curso/temas/47.png' alt='')
             .tarjeta.color-primario.bg11
               .p-4.text-center.pt-5                           
                 h4 Productor interno
-                p.mb-0 Ayuda en la construcción de los objetivos del producto y es el responsable de su planificación y desarrollo, solventando todas las dificultades que se presente durante la ejecución de las iteraciones. Establece las acciones que se deben implementar para la mejora continua y se comunica constantemente con el cliente para mantenerlo informado de los avances del proyecto en general. 
+                p.mb-0 Ayuda en la construcción de los objetivos del producto y es el responsable de su planificación y desarrollo, solventando todas las dificultades que se presenten durante la ejecución de las iteraciones. Establece las acciones que se deben implementar para la mejora continua y se comunica constantemente con el cliente para mantenerlo informado de los avances del proyecto en general. 
           .tarjeta-avatar
             img(src='@/assets/curso/temas/48.png' alt='')
             .tarjeta.color-primario.bg11
@@ -325,14 +328,14 @@
             .tarjeta.color-primario.bg11
               .p-4.text-center.pt-5                           
                 h4 Verificador Beta
-                p.mb-0 Participa en la fase 4 Beta del proyecto y es el responsable de verificar todas las funciones del producto. El verificador no hace parte del equipo de desarrollo ya que ejerce un rol imparcial en las pruebas que realiza. Generalmente utiliza un #[i software] especializado para hacer el seguimiento y detectar los errores que se deben corregir por parte del equipo desarrollador.                                                 
+                p.mb-0 Participa en la fase 4 Beta del proyecto y es el responsable de verificar todas las funciones del producto. El verificador no hace parte del equipo de desarrollo, ya que ejerce un rol imparcial en las pruebas que realiza. Generalmente, utiliza un #[i software] especializado para hacer el seguimiento y detectar los errores que se deben corregir por parte del equipo desarrollador.                                                 
         .bg12.p-2(data-aos="flip-down")
           .row.justify-content-center.align-items-center     
             .col-auto
               img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/50.svg')
             
             .col  
-              p.mb-0 Para complementar el aprendizaje de este tema, se recomienda realizar la lectura #[b.mark.ts.bgw SUM para el desarrollo de videos juegos,] la cual se encuentra en el material complementario. 
+              p.mb-0 Para complementar el aprendizaje de este tema, se recomienda realizar la lectura #[b.mark.ts.bgw SUM para el desarrollo de videojuegos,] la cual se encuentra en el material complementario. 
 </template>
 
 <script>

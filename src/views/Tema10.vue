@@ -11,7 +11,7 @@
         p(data-aos="fade-down") Hacen que las acciones durante el juego se destaquen mucho más, dándole más impacto visual a las escenas, por ejemplo, en un combate los golpes se hacen más visibles con efectos, el piso al combatir puede botar partículas, si hay un disparo se puede generar humo, puede haber un entorno con neblina, lluvia, fuego, entre muchos más.  La siguiente figura muestra un ejemplo:
 
         .titulo-sexto.color-acento-contenido
-          h5 Figura 23.
+          h5 Figura 24.
           span Explosion #[i hollow knight]
         img.img-t.img-a.mb-1(data-aos="zoom-in")(src='@/assets/curso/temas/17.png',alt="La imagen muestra una escena del videojuego Hollow Knight. Se observa al personaje principal en el aire, posiblemente después de ejecutar un ataque, con una explosión de energía en el fondo que ilumina la escena.") 
         figcaption Nota. Ejemplo efecto visual. #[i Interfaceingame] (s.f.).

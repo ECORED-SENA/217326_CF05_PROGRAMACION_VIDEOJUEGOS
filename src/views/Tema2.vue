@@ -19,10 +19,10 @@
     TabsA.color-acento-botones.mb-5
       .tarjeta.color-acento-botones--borde.p-4(titulo="Abstracción") 
         h4 Abstracción
-        p.mb-0 Consiste en abstraer o aislar las características o atributos esenciales que definen un objeto y que lo distinguen de los demás con el propósito de que las pueda usar otro objeto. Por ejemplo, si el objeto es una puerta las características esenciales es que tenga un marco, bisagras y cerradura sin importar el tamaño, el color y el tipo de material entre otras.   
+        p.mb-0 Consiste en abstraer o aislar las características o atributos esenciales que definen un objeto y que lo distinguen de los demás con el propósito de que las pueda usar otro objeto. Por ejemplo, si el objeto es una puerta, las características esenciales son que tenga un marco, bisagras y cerradura sin importar el tamaño, el color y el tipo de material entre otras.   
       .tarjeta.color-acento-botones--borde.p-4(titulo="Encapsulamiento") 
         h4 Encapsulamiento
-        p.mb-0 Es el conjunto de características esenciales que han sido separadas de las no esenciales. En el ejemplo de la puerta en el encapsulamiento se encuentra el marco, las bisagras y la cerradura ya que son los atributos principales o generales que hacen que el objeto sea definido como puerta, los demás atributos como el color, el material y el tamaño, hacen parte lo que se consideran características, pues estos son atributos que pueden poseer innumerables tipos de objetos. 
+        p.mb-0 Es el conjunto de características esenciales que han sido separadas de las no esenciales. En el ejemplo de la puerta en el encapsulamiento se encuentra el marco, las bisagras y la cerradura, ya que son los atributos principales o generales que hacen que el objeto sea definido como puerta, los demás atributos como el color, el material y el tamaño, hacen parte lo que se consideran características, pues estos son atributos que pueden poseer innumerables tipos de objetos. 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Herencia") 
         h4 Herencia
         p Al encapsulamiento de las características de un objeto se le llama clase; que está conformada por un patrón de atributos que la hacen de orden superior o superclase porque tiene características generales, pero pueden surgir clases hijas o subclases que hereden estas características y se encuentren en orden inferior dentro de la jerarquía. 
@@ -30,11 +30,11 @@
         p.mb-0 En el ejemplo de la puerta, las clases hijas que heredan las características son los tipos de puertas que pueden elaborarse como las correderas, plegables, pivotantes, de seguridad, entre otras.   
       .tarjeta.color-acento-botones--borde.p-4(titulo="Polimorfismo") 
         h4 Polimorfismo
-        p.mb-0 Consiste en definir un método con un conjunto de parámetros el cual puede ser aplicado en varios tipos de objetos. El método puede aumentar o disminuir los parámetros dependiendo del objeto al que se aplique. Por ejemplo, si método se llama Open y es utilizado para abrir diferentes objetos como: puerta, cuenta bancaria, evento, historia clínica, entre otros. Dependiendo de lo que se abra, el proceso como tal, tiene más o menos actividades por realizar. 
+        p.mb-0 Consiste en definir un método con un conjunto de parámetros, el cual puede ser aplicado en varios tipos de objetos. El método puede aumentar o disminuir los parámetros dependiendo del objeto al que se aplique. Por ejemplo, si el método se llama Open y es utilizado para abrir diferentes objetos como: puerta, cuenta bancaria, evento, historia clínica, entre otros. Dependiendo de lo que se abra, el proceso como tal, tiene más o menos actividades por realizar. 
 
     p(data-aos="fade-down") El lenguaje de programación que se utiliza en Unity para generar las líneas de código o #[i Scripts] es C#; el cual se compone de variables, funciones y clases que se explicarán más adelante. Para escribir el código, Unity tiene un editor de texto asociado llamado Visual Studio, aunque el programador puede utilizar simplemente el #[i bloc] de notas. El editor (Visual Studio) le ayuda a determinar los errores de sintaxis que se puedan cometer en el desarrollo, por esa razón es recomendable hacer uso de este.   
 
-    h4(data-aos="fade-down").mb-5.t1 Antes de comenzar a estructurar un programa en Unity, ver la explicación de algunos conceptos básicos en el siguiente enlace:  
+    h4(data-aos="fade-down").mb-5.t1 Antes de comenzar a estructurar un programa en Unity, revisar la explicación de algunos conceptos básicos en el siguiente enlace:  
     
     .row.justify-content-center.align-items-center        
       .col-lg-10
@@ -96,7 +96,7 @@
           .list__txt.bgicon.p-0.px-4
             h4.mb-0 Algoritmo 
 
-    p(data-aos="fade-down").mb-5 Es el conjunto de pasos o instrucciones ordenadas lógicamente para resolver un problema o realizar una tarea específica. Es uno de los pasos previos antes de entrar a la programación,  es decir, antes escribir las líneas de código. Un algoritmo posee características muy definidas para que resulte efectivo:            
+    p(data-aos="fade-down").mb-5 Es el conjunto de pasos o instrucciones ordenadas lógicamente para resolver un problema o realizar una tarea específica. Es uno de los pasos previos antes de entrar a la programación,  es decir, antes de escribir las líneas de código. Un algoritmo posee características muy definidas para que resulte efectivo:            
 
     .row.bg1.align-items-center.py-0.mb-5
       .col-lg-12.col-12.px-lg-5.px-4
@@ -156,7 +156,7 @@
           img.img-t.img-a.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/59.svg')
           .px-5
             h4.mb-4 Pseudocódigo
-            p.mb-0 Las instrucciones que se deben seguir paso a paso de manera lógica y ordenada se representan en forma descriptiva elaborando una serie de expresiones a manera de proposición o afirmación sobre un evento.
+            p.mb-0 Las instrucciones que se deben seguir paso a paso de manera lógica y ordenada se representan en forma descriptiva, elaborando una serie de expresiones a manera de proposición o afirmación sobre un evento.
 
       .col-lg-6.my-4.p-0
         .bg17_1.h-100.p-5
@@ -238,7 +238,7 @@
 
           li 
             i.fas.fa-gamepad.t1
-            span Son de alto nivel porque son comprendidos por cualquier persona cuando los escribe al seguir las reglas por ejemplo Contador = 10; asigna el valor de 10 a la variable Contador.
+            span Son de alto nivel porque son comprendidos por cualquier persona cuando los escribe al seguir las reglas, por ejemplo Contador = 10; asigna el valor de 10 a la variable Contador.
 
           li 
             i.fas.fa-gamepad.t1
@@ -255,7 +255,7 @@
             i.fas.fa-gamepad.t1
             span #[b Aplicación:] conjunto de instrucciones escritas por programadores para que se ejecuten tareas específicas, por ejemplo, procesar textos (Word), realizar cálculos (Excel), hacer presentaciones (PowerPoint), desarrollar videojuegos (Unity); entre muchos otros.   
 
-    p(data-aos="fade-down").mb-4 El proceso que se lleva a cabo para que un programa sea ejecutado por el ordenador y realice la función deseada se muestra a continuación:
+    p(data-aos="fade-down").mb-4 El proceso que se lleva a cabo para que un programa sea ejecutado por el ordenador y realice la función deseada se presenta a continuación:
 
     ImagenInfografica.color-acento-botones.mb-5.d-none.d-lg-block 
       template(v-slot:imagen)
@@ -313,7 +313,7 @@
     Separador 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.2 Diagramas de flujo    
-    p(data-aos="fade-down").mb-4 Es una herramienta de tipo gráfica que representa el diseño de un algoritmo y está compuesta por símbolos que indican las acciones a realizar para obtener un resultado que resuelve un problema, situación o tarea. Los símbolos están unidos por flechas las cuales señalan la secuencia lógica de ejecución de dichas acciones. Todo algoritmo tiene un comienzo y un final representados por sus símbolos respectivos. #[b.t1 A continuación, se explica cada uno de ellos, ver tabla 2:]
+    p(data-aos="fade-down").mb-4 Es una herramienta de tipo gráfica que representa el diseño de un algoritmo y está compuesta por símbolos que indican las acciones a realizar para obtener un resultado que resuelve un problema, situación o tarea. Los símbolos están unidos por flechas, las cuales señalan la secuencia lógica de ejecución de dichas acciones. Todo algoritmo tiene un comienzo y un final representados por sus símbolos respectivos. #[b.t1 A continuación, se explica cada uno de ellos, ver tabla 2:]
     .titulo-sexto.color-acento-contenido
       h5 Tabla 2.
       span Símbolos utilizados en los diagramas de flujo.
@@ -341,7 +341,7 @@
               tr
                 td.w-300           
                   img.img-a.img-t(src='@/assets/curso/temas/68.svg', alt='')
-                td Símbolo que indica la toma de una decisión. Al interior de él se coloca una pregunta que puede ser cierta/falsa y de la cual salen dos flechas que indica la ruta a seguir de acuerdo con la respuesta.
+                td Símbolo que indica la toma de una decisión. Al interior de él se coloca una pregunta que puede ser cierta/falsa y de la cual salen dos flechas que indican la ruta a seguir de acuerdo con la respuesta.
               tr
                 td.w-300           
                   img.img-a.img-t(src='@/assets/curso/temas/69.svg', alt='')
@@ -353,7 +353,7 @@
               tr
                 td.w-300           
                   img.img-a.img-t(src='@/assets/curso/temas/71.svg', alt='')
-                td Conector que enlaza dos parte de un diagrama de flujo donde sus partes se encuentra en páginas diferentes. 
+                td Conector que enlaza dos partes de un diagrama de flujo donde sus partes se encuentra en páginas diferentes. 
               tr
                 td.w-300           
                   img.img-a.img-t(src='@/assets/curso/temas/72.svg', alt='')
@@ -423,12 +423,12 @@
               p.mb-0 Comprueba si hay procedimientos que se repiten.     
 
     h4(data-aos="fade-down").mt-5 Ejemplo 
-    p(data-aos="fade-down").mb-5 En la siguiente figura se observa el diagrama de flujo del ejemplo de la historia #[b.t1 “La isla de los tesoros escondidos”], en la cual se había elaborado un algoritmo con la técnica de Pseudocódigo.  En este diagrama, En este diagrama (figura 2), se ilustra la actividad que se le ha propuesto llevar a cabo al jugador.
+    p(data-aos="fade-down").mb-5 En la siguiente figura se observa el diagrama de flujo del ejemplo de la historia #[b.t1 “La isla de los tesoros escondidos”], en la cual se había elaborado un algoritmo con la técnica de Pseudocódigo.  En este diagrama, En este diagrama (figura 3), se ilustra la actividad que se le ha propuesto llevar a cabo al jugador.
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2.
+          h5 Figura 3.
           span Diagrama de flujo de una tarea a realizar en el juego “La isla de los tesoros escondidos”
 
         .bg3.p-4.mb-5
@@ -438,27 +438,11 @@
         .cajon.color-secundario.p-4(data-aos="fade-down") 
           p.mb-0 Este flujo de tareas a realizar es apenas una parte muy pequeña del juego y se puede continuar agregando tareas de acuerdo con las mecánicas definidas, para lo cual se sigue agrandando el diagrama que posteriormente se codificará. 
 
-        h4(data-aos="fade-down").my-5 Para complementar el aprendizaje de la temática se recomienda hacer la siguiente lectura:  
-
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-2
-              img.img-a.img-t(src="@/assets/curso/temas/icon1.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Diseño y construcción de algoritmos
-                  p.mb-0 Consultar en la base de datos SENA, ingresando su usuario y contraseña. 
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=6425" target="_blank")
-                    span Descargar
-                    i.fas.fa-link       
-
     Separador 
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.3 Conceptos de variables, operadores, funciones, métodos, estructuras de control   
 
-    p(data-aos="fade-down").mb-5 En los lenguajes de programación dentro de la sintaxis de las líneas de código; se utilizan elementos o identificadores los cuales son utilizados dentro de la estructura del programa para lograr la solución del problema, situación o tarea determinada. A continuación, se estudiará cada uno de ellos.
+    p(data-aos="fade-down").mb-5 En los lenguajes de programación dentro de la sintaxis de las líneas de código; se utilizan elementos o identificadores, los cuales son utilizados dentro de la estructura del programa para lograr la solución del problema, situación o tarea determinada. A continuación, se estudiará cada uno de ellos.
 
     .row.justify-content-start.mb-4 
       .col-auto(data-aos="flip-down")
@@ -478,10 +462,10 @@
         p Representados por valores enteros o valores reales que incorporan el signo, por ejemplo, el valor -5 corresponde a un número entero con signo negativo y 4,5 corresponde a un valor real con un solo decimal y sin signo.
 
       div(titulo="Lógicos") 
-        p Son tipos de datos que representa uno de dos valores “ falso” o “ verdadero”, utilizados en los algoritmos cuando se diseñan instrucciones en las cuales se debe cumplir una condición para la toma de una decisión; por ejemplo la condición es encontrar el tesoro; si la respuesta es verdadera puede continuar al siguiente nivel y si es falsa debe seguir buscando. 
+        p Son tipos de datos que representa uno de dos valores “falso” o “ verdadero”, utilizados en los algoritmos cuando se diseñan instrucciones en las cuales se debe cumplir una condición para la toma de una decisión; por ejemplo la condición es encontrar el tesoro; si la respuesta es verdadera puede continuar al siguiente nivel y si es falsa debe seguir buscando. 
 
       div(titulo="Alfanumérico") 
-        p Son datos representados por caracteres diferentes a los números puros o a los lógicos; pues estos pueden contener letras con números y símbolos especiales como guion (-),asterisco (*), símbolo de número (#), entre otros.       
+        p Son datos representados por caracteres diferentes a los números puros o a los lógicos; pues estos pueden contener letras con números y símbolos especiales como guion (-), asterisco (*), símbolo de número (#), entre otros.       
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
@@ -500,7 +484,7 @@
           ul.lista-ul.fa-ul
             li 
               i.fas.fa-gamepad.t1
-              span El nombre de la variable no puede comenzar con un número pero si puede hacer parte del nombre.
+              span El nombre de la variable no puede comenzar con un número, pero sí puede hacer parte del nombre.
             li 
               i.fas.fa-gamepad.t1
               span No se pueden colocar espacios dentro del nombre.
@@ -512,7 +496,7 @@
               span No pueden existir dos variables que se llamen igual  dentro de un mismo bloque de instrucciones.
             li 
               i.fas.fa-gamepad.t1
-              span No se pueden utilizar nombres con palabras propias del lenguaje de programación; por ejemplo la no se puede llamar a una variable “int”  pues esta es una palabra que reserva el programa para definir que el tipo de datos es entero. 
+              span No se pueden utilizar nombres con palabras propias del lenguaje de programación; por ejemplo, no se puede llamar a una variable “int”  pues esta es una palabra que reserva el programa para definir que el tipo de datos es entero. 
             li 
               i.fas.fa-gamepad.t1
               span El lenguaje hace diferencia entre letras mayúsculas y minúsculas; por ejemplo, las variables X y x son diferentes. 
@@ -544,7 +528,7 @@
           .list__txt.bgicon.p-0.px-4
             h4.mb-0 Operadores 
 
-    p(data-aos="fade-down") Son elementos dentro de la programación, con los cuales se realizan operaciones básicas sobre los datos. Cuando el programa fuente es compilado el ordenador realiza internamente los procedimientos matemáticos o lógicos para entregar el resultado.
+    p(data-aos="fade-down") Son elementos dentro de la programación, con los cuales se realizan operaciones básicas sobre los datos. Cuando el programa fuente es compilado, el ordenador realiza internamente los procedimientos matemáticos o lógicos para entregar el resultado.
 
     .tabla-a.text-center.mb-5
       table
@@ -561,8 +545,8 @@
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-4.p-4.bg20
-        p •.  Lo que se quiere es sumar las variables A,B y colocar el resultado en la variable Total
-        p •.  Limpiar los valores  
+        p • Lo que se quiere es sumar las variables A, B y colocar el resultado en la variable Total
+        p • Limpiar los valores  
 
         h4 A = ____
         h4 B = ____
@@ -643,7 +627,7 @@
           .list__txt.bgicon.p-0.px-4
             h4.mb-0 Funciones y métodos 
 
-    p(data-aos="fade-down").mb-5 Son procedimientos dentro de la programación llamados bloques y en los cuales se escriben líneas de código o instrucciones para llevar a cabo una determinada acción dentro del programa. Estos elementos le proporcionan una estructura modular al programa ya que líneas de código pueden ser invocados en otra parte del programa, sin necesidad de repetirlas o también se pueden invocar en otros programas para no escribirlas de nuevo. La diferencia entre estos dos procedimientos radica en siguiente característica: 
+    p(data-aos="fade-down").mb-5 Son procedimientos dentro de la programación llamados bloques y en los cuales se escriben líneas de código o instrucciones para llevar a cabo una determinada acción dentro del programa. Estos elementos le proporcionan una estructura modular al programa, ya que líneas de código pueden ser invocados en otra parte del programa, sin necesidad de repetirlas o también se pueden invocar en otros programas para no escribirlas de nuevo. La diferencia entre estos dos procedimientos radica en la siguiente característica: 
 
     .row.justify-content-center.mb-5           
       .col-lg-3(data-aos="zoom-in-left")
@@ -684,7 +668,7 @@
                 img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/84.png')                
               .col-lg-9.text-white.my-3
            
-                p Los procedimientos pueden ser de tipo private o public, es decir, si el bloque de instrucciones solo se puede utilizar en el programa actual es private, pero si se puede utilizar en otros es public. El procedimiento suma las variables A y B retornando el resultado en la variable total. Como hay un resultado que se genera el procedimiento es una #[b.mark.t4 Función.]
+                p Los procedimientos pueden ser de tipo #[em private] o #[em public], es decir, si el bloque de instrucciones solo se puede utilizar en el programa actual es #[em private], pero si se puede utilizar en otros es #[em public]. El procedimiento suma las variables A y B retornando el resultado en la variable total. Como hay un resultado que se genera el procedimiento es una #[b.mark.t4 Función.]
 
                 p La primera instrucción indica que el procedimiento que se va a realizar se llama limpiar el cual es de tipo privado #[i (private)] y retorna un valor nulo #[i (void)],  en las cajas de texto #[i (txt)] de las variables A,B y total. Obsérvese que como el procedimiento no devuelve un valor, entonces es un método.
 
@@ -775,7 +759,7 @@
       .col-lg-10
         p(data-aos="fade-down") Es entonces una acción que es ejecutada sobre un objeto del programa y que es provocada por el usuario al interactuar con la interfaz de este (programa), recuérdese que la interfaz es la pantalla inicial que el usuario visualiza y en la cual puede llevar a cabo acciones. 
 
-        p(data-aos="fade-down") Cuando se estén escribiendo las líneas de código se deben tener en cuenta los eventos que se pueden dar sobre los objetos creados dentro del programa; por ejemplo, cuando el usuario hace clic sobre un botón ocurre algo al interior del sistema que hace que se active alguna función determinada. #[b.t1 Los eventos incluyen:]  
+        p(data-aos="fade-down") Cuando se estén escribiendo las líneas de código, se deben tener en cuenta los eventos que se pueden dar sobre los objetos creados dentro del programa; por ejemplo, cuando el usuario hace clic sobre un botón, ocurre algo al interior del sistema que hace que se active alguna función determinada. #[b.t1 Los eventos incluyen:]  
       .col-lg-2
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/88.svg')  
 
@@ -812,31 +796,31 @@
           img(src='@/assets/curso/temas/53.png' alt='')
           .tarjeta.color-primario.bg13
             .p-4.text-center.pt-5                           
-              p.mb-0 El procesamiento de las funciones es mucho más rápido ya que como se han tenido en cuenta  las acciones que puede realizar el usuario al interactuar con el programa, se han desarrollado líneas de código que las activen cuando estos eventos ocurran.
+              p.mb-0 El procesamiento de las funciones es mucho más rápido, ya que como se han tenido en cuenta  las acciones que puede realizar el usuario al interactuar con el programa, se han desarrollado líneas de código que las activen cuando estos eventos ocurran.
       .col-lg-3(data-aos="zoom-in")              
         .tarjeta-avatar
           img(src='@/assets/curso/temas/54.png' alt='')
           .tarjeta.color-primario.bg13
             .p-4.text-center.pt-5                           
-              p.mb-0 Se mejora la experiencia del usuario ya que se tienen en cuanta todas las interacciones que este puede realizar con el programa y para cada una de ellas se planifican y ejecutan respuestas que lo ayuden a encontrar caminos o soluciones a lo que está buscando.
+              p.mb-0 Se mejora la experiencia del usuario, ya que se tienen en cuenta todas las interacciones que este puede realizar con el programa y para cada una de ellas se planifican y ejecutan respuestas que lo ayuden a encontrar caminos o soluciones a lo que está buscando.
       .col-lg-3(data-aos="zoom-in-right")               
         .tarjeta-avatar
           img(src='@/assets/curso/temas/55.png' alt='')
           .tarjeta.color-primario.bg13
             .p-4.text-center.pt-5                           
-              p.mb-0 Se minimizan las líneas de código ya que es el usuario quien genera el evento y el sistema se encarga de responder.
+              p.mb-0 Se minimizan las líneas de código, ya que es el usuario quien genera el evento y el sistema se encarga de responder.
       .col-lg-3(data-aos="zoom-in-right")               
         .tarjeta-avatar
           img(src='@/assets/curso/temas/74.png' alt='')
           .tarjeta.color-primario.bg13
             .p-4.text-center.pt-5                           
-              p.mb-0 La interfaz del programa es más amigable ya que ofrece opciones como botones, menús, ventanas, casillas de verificación, entre otras y los usuarios pueden escoger cual de estos utilizar para navegar en él.    
+              p.mb-0 La interfaz del programa es más amigable, ya que ofrece opciones como botones, menús, ventanas, casillas de verificación, entre otras y los usuarios pueden escoger cuál de estos utilizar para navegar en él.    
 
     .row.bg22.align-items-center.py-0.mb-5(data-aos="zoom-in")
       .col-lg-12.col-12.px-lg-5.px-4 
         h4(data-aos="fade-down") Ejemplo 
 
-        p(data-aos="fade-down").mb-5 En Unity se desea crear un evento en el cual el usuario presione el botón Exit y salga del juego. #[b.t1 En el proyecto en el que se está trabajando realizar las siguientes acciones:]
+        p(data-aos="fade-down").mb-5 En Unity se desea crear un evento en el cual el usuario presione el botón #[em Exit] y salga del juego. #[b.t1 En el proyecto en el que se está trabajando realizar las siguientes acciones:]
 
         .tarjeta.tarjeta--gris.p-4.mb-5
           LineaTiempoC.color-primario
@@ -849,7 +833,7 @@
                 img.img-mov(src='@/assets/curso/temas/90.png')  
             .row.justify-content-center(titulo="Botón")
               .col-lg-4
-                p Una vez creado el botón en la ventana de jerarquía se adiciona el objeto creado dentro de la plantilla Canvas y se pueden realizar las siguientes opciones:
+                p Una vez creado el botón en la ventana de jerarquía se adiciona el objeto creado dentro de la plantilla #[em Canvas] y se pueden realizar las siguientes opciones:
                 ul.lista-ul.fa-ul
                   li 
                     i.fas.fa-gamepad.t2
@@ -859,12 +843,12 @@
                     | Clic en el botón del menú para cambiar el tamaño arrastrando los puntos de los extremos 
                   li.ps-5 
                     i.fas.fa-gamepad.t2
-                    | Doble clic en la ventana de jerarquía en la opción Text para cambiar el nombre del botón que este caso se va a llamar Exit.         
+                    | Doble clic en la ventana de jerarquía en la opción Text para cambiar el nombre del botón que este caso se va a llamar #[em Exit].         
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/91.png')   
             .row.justify-content-center(titulo="<i>Script</i>")
               .col-lg-4
-                p Ya creado el botón debe asociarse la acción que va a realizar, que en este caso es salir y para ello se crea un #[i script] o líneas de código :
+                p Ya creado el botón debe asociarse la acción que va a realizar, que en este caso es salir y para ello se crea un #[i script] o líneas de código:
                 ul.lista-ul.fa-ul
                   li 
                     i.fas.fa-gamepad.t2
@@ -886,7 +870,7 @@
               .col-lg-4
                 p Al hacer doble clic en el archivo C# denominado Salir se abre la ventana del editor Visual Studio en el cual se podrán escribir las líneas de código que ejecutarán la acción de salir.  
 
-                p En este caso se ha declarado una función  de tipo pública (#[i.t1 public]), es decir, que se puede utilizar en cualquier y por otros programas y además tiene la característica #[i.t1 void], que quiere decir, no devuelve ningún tipo de valor sino que ejecuta la acción. La sentencia #[i.t1 Application].Quit ejecuta la acción de abandonar.   
+                p En este caso se ha declarado una función  de tipo pública (#[i.t1 public]), es decir, que se puede utilizar en cualquier y por otros programas y además tiene la característica #[i.t1 void], que quiere decir, no devuelve ningún tipo de valor sino que ejecuta la acción. La sentencia #[i.t1 Application]. #[em Quit] ejecuta la acción de abandonar.   
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/94.png') 
             .row.justify-content-center(titulo="Asociar")
@@ -906,7 +890,7 @@
                 img.img-mov(src='@/assets/curso/temas/95.png')   
             .row.justify-content-center(titulo="Juego")
               .col-lg-4
-                p Cuando la función está lista para ser utilizada se observa en modo #[i Game] y no en modo escena para visualizar como se verá el botón del evento en la interfaz del usuario para que pueda ser accionado por éste.
+                p Cuando la función está lista para ser utilizada se observa en modo #[i Game] y no en modo escena para visualizar cómo se verá el botón del evento en la interfaz del usuario para que pueda ser accionado por éste.
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/96.png')
 
@@ -929,7 +913,7 @@
       .row.justify-content-center(titulo="Variables")      
         .col-lg-8.my-3
           p Como se mencionó antes son espacios reservados en la memoria para almacenar valores de diferentes tipos, ya se vio en los anteriores apartados su tipología (numéricos, lógicos, alfanuméricos), pero en Unity también hay tipos de datos de referencia que se aplican a los objetos como #[i Transform y Light] que se visualizan en la ventana del Inspector; donde la primera trata con aspectos de posición, rotación y tamaño del objeto y la segunda con efectos de iluminación. 
-          p Las variables deben ser declaradas al comienzo del bloque de las líneas de código definiendo si van a ser públicas o privadas. Una #[b variable pública] es aquella que puede ser utilizada por otros #[i scripts] y cambiar su valor porque es accesible para ellos ya que aparece en la ventana del Inspector y una #[b variable privada] es aquella que solo puede ser utilizada dentro de una misma clase (ya se verá este término a continuación) y dentro de un mismo método o función y no puede ser visualizada en el Inspector porque sus valores no son manipulables por otros #[i scripts].
+          p Las variables deben ser declaradas al comienzo del bloque de las líneas de código, definiendo si van a ser públicas o privadas. Una #[b variable pública] es aquella que puede ser utilizada por otros #[i scripts] y cambiar su valor porque es accesible para ellos, ya que aparece en la ventana del Inspector y una #[b variable privada] es aquella que solo puede ser utilizada dentro de una misma clase (ya se verá este término a continuación) y dentro de un mismo método o función y no puede ser visualizada en el Inspector porque sus valores no son manipulables por otros #[i scripts].
 
           p Cuando se codifica una variable se debe tener en cuenta aspectos de nomenclatura como que el nombre no debe empezar por un número y  no debe tener espacios.          
         .col-lg-4.my-3
@@ -971,13 +955,13 @@
 
       .row.justify-content-center(titulo="Clases")      
         .col-lg-12.my-3
-          p Son las que agrupan los atributos y características que van a contener los objetos que se crean en Unity; dentro de ellas se encuentras las variables y los métodos (funciones) que se aplicarán para que se comporte como se ha planeado. 
+          p Son las que agrupan los atributos y características que van a contener los objetos que se crean en Unity; dentro de ellas se encuentran las variables y los métodos (funciones) que se aplicarán para que se comporte como se ha planeado. 
 
           p El objeto se comporta de acuerdo con los atributos contenidos en la clase, lo que significa que esta (clase) actúa como un molde para los objetos que se construyan dentro de ella.
 
           p Las clases cumplen con las características de abstraccionismo, encapsulamiento, heredad y polimorfismo propias de la Programación Orientada a Objetos – POO-. Algunas de las clases más importantes que se encuentran en el motor de Unity son: 
         .col-lg-7.my-3          
-          p Cuando se están escribiendo líneas de código y se crean  varias clases para los objetos las cuales van agrupar diferentes atributos, entonces se utiliza lo que se llama “Espacios de nombres”; para organizar clases dentro de un mismo entorno, agrupándolas para darle una mejor estructura al #[i script] y evitar confusiones cuando el motor de Unity haga la compilación de las instrucciones para ser ejecutadas.
+          p Cuando se están escribiendo líneas de código y se crean  varias clases para los objetos las cuales van a agrupar diferentes atributos, entonces se utiliza lo que se llama “Espacios de nombres”; para organizar clases dentro de un mismo entorno, agrupándolas para darle una mejor estructura al #[i script] y evitar confusiones cuando el motor de Unity haga la compilación de las instrucciones para ser ejecutadas.
 
           p #[b Ejemplo:] Crear un #[i Script] e identificar los espacios de nombres. 
 
@@ -989,7 +973,7 @@
         .col-lg-5.my-3          
           p Se ha creado entonces un archivo llamado #[i NewBehaviourScript.cs] que es el nombre por defecto, el cual puede ser cambiado por el que el usuario necesite para identificar las acciones que realiza.
 
-          p #[b.fst-italic using System.Collections:]  esta línea de #[i Script] significa que se declara una clase llamada Collections la cual agrupara diferentes objetos dependiendo de sus atributos y funciones. 
+          p #[b.fst-italic using System.Collections:]  esta línea de #[i Script] significa que se declara una clase llamada Collections la cual agrupará diferentes objetos dependiendo de sus atributos y funciones. 
           p #[b.fst-italic using System.Collections.Generic:] dentro de la clase Collections hay elementos que son de un solo tipo. Esto quiere decir que cuando se recupera un elemento de esta clase no hay que definirle el tipo.
           p #[b.fst-italic using UnityEngine:] permite que el #[i Script] herede de la clase #[i MonoBehavour] todas las funciones como #[i awake, start, update, Transform, Light], entre otras. 
         .col-lg-7.my-3
@@ -1002,9 +986,9 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center.mb-4     
           .col-lg-10
-            p(data-aos="fade-down") La interfaz de usuario es (UI) es la manera en que este interacciona con el programa; en este caso la forma en que un jugador se comunica con el videojuego interactuando con él. El motor de Unity posee un componente llamado Canvas que actúa como un contenedor o plantilla donde se pueden colocar todos los elementos u objetos  que van a hacer parte de la interfaz del usuario. Canvas quieres decir lienzo y es el espacio donde se van a colocar imágenes, botones, textos, personajes, formas, entre otros que pueden ser controlados a través de la ventana del inspector.
+            p(data-aos="fade-down") La interfaz de usuario es (UI) es la manera en que este interacciona con el programa; en este caso, la forma en que un jugador se comunica con el videojuego interactuando con él. El motor de Unity posee un componente llamado #[em Canvas] que actúa como un contenedor o plantilla donde se pueden colocar todos los elementos u objetos  que van a hacer parte de la interfaz del usuario. #[em Canvas], quiere decir lienzo y es el espacio donde se van a colocar imágenes, botones, textos, personajes, formas, entre otros que pueden ser controlados a través de la ventana del inspector.
 
-            h4.t1(data-aos="fade-down") Para utilizar Canvas entonces en la interfaz inicial de Unity se realizan las siguientes acciones:
+            h4.t1(data-aos="fade-down") Para utilizar #[em Canvas] entonces en la interfaz inicial de Unity se realizan las siguientes acciones:
           .col-lg-2
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/104.png')  
 
@@ -1021,29 +1005,29 @@
                     span Clic en la opción #[i UI]
                   li 
                     i.fas.fa-gamepad.t1
-                    span Clic en la opción Canvas          
+                    span Clic en la opción #[em Canvas]          
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/105.png')     
 
             .row.justify-content-center(titulo="Paso 2")
               .col-lg-8
-                p Cuando se ha añadido Canvas a la escena en la ventana del Inspector se observa cada uno de sus componentes:
+                p Cuando se ha añadido #[em Canvas] a la escena en la ventana del Inspector se observa cada uno de sus componentes:
 
                 p #[b.fst-italic 1 Rect Transform:] es un componente en el que se establece la posición y tamaño de un  elemento en la interfaz del usuario, el ancho y el alto.
 
-                p #[b.fst-italic 2  Canvas:] es el área bajo la cual se van a ubicar los elementos que va a contener la interfaz: 
+                p #[b.fst-italic 2 #[em Canvas]:] es el área bajo la cual se van a ubicar los elementos que va a contener la interfaz: 
                 ul.lista-ul.fa-ul.ps-2
                   li 
                     i.fas.fa-gamepad.t1
-                    span opción #[i Screen Space] – Overlay indica que la plantilla de Canvas se ajustara al tamaño de la pantalla. 
+                    span opción #[i Screen Space] – Overlay indica que la plantilla de #[em Canvas] se ajustara al tamaño de la pantalla. 
                   li 
                     i.fas.fa-gamepad.t1
-                    span opción #[i Screen Space] – Camera indica que la plantilla de Canvas se ajustara para encajar en el plano de la cámara.
+                    span opción #[i Screen Space] – Camera indica que la plantilla de #[em Canvas] se ajustara para encajar en el plano de la cámara.
                   li 
                     i.fas.fa-gamepad.t1
-                    span opción #[i World Space] –indica que la plantilla de Canvas tratara la imagen como un objeto plano en la escena.
+                    span opción #[i World Space] –indica que la plantilla de #[em Canvas] tratara la imagen como un objeto plano en la escena.
 
-                p #[b.fst-italic 3 Canvas Scaler (#[i Script]):] tiene que ver con la densidad del pixel de los elementos que se coloquen dentro de la plantilla, esto hace que se vea con mayor o menor resolución.
+                p #[b.fst-italic 3 #[em Canvas Scaler] (#[i Script]):] tiene que ver con la densidad del pixel de los elementos que se coloquen dentro de la plantilla, esto hace que se vea con mayor o menor resolución.
 
                 p #[b.fst-italic 4 Graphic Raycaster (#[i Script]):] controla los elementos gráficos teniendo en cuenta los que se colocan en el fondo o delante.           
               .col-lg-4            
@@ -1057,11 +1041,11 @@
           LineaTiempoC.color-primario
             .row.justify-content-center(titulo="Paso 3")
               .col-lg-4
-                p Después que se ha llamado la plantilla Canvas se realiza:
+                p Después que se ha llamado la plantilla #[em Canvas] se realiza:
                 ul.lista-ul.fa-ul
                   li 
                     i.fas.fa-gamepad.t1
-                    span Clic derecho del #[i mouse] en el componente Canvas de la ventana de jerarquía
+                    span Clic derecho del #[i mouse] en el componente #[em Canvas] de la ventana de jerarquía
                   li 
                     i.fas.fa-gamepad.t1
                     span Clic en #[i UI]
@@ -1073,7 +1057,7 @@
 
             .row.justify-content-center(titulo="Paso 4")
               .col-lg-4
-                p Una vez añadido el botón al área de la escena y dentro de Canvas, realizar:
+                p Una vez añadido el botón al área de la escena y dentro de #[em Canvas], realizar:
 
                 ul.lista-ul.fa-ul
                   li 
@@ -1086,7 +1070,7 @@
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/108.png') 
 
-        p(data-aos="fade-down").mb-5 Para profundizar en la ventana del Inspector del Canvas y en las temáticas de programación en Unity 3D se recomienda consultar los siguientes sitios web:
+        p(data-aos="fade-down").mb-5 Para profundizar en la ventana del Inspector del #[em Canvas] y en las temáticas de programación en Unity 3D se recomienda consultar los siguientes sitios web:
 
         .row.justify-content-center.align-items-center    
           .col-lg-10
@@ -1185,13 +1169,13 @@
             .bg24.p-3
               .text-white 
                 p.mb-0 int x = numeros.Length   
-        p(data-aos="fade-down") En la variable x quedaría almacenado el número 6 ya que el tamaño del arreglo es 6.
+        p(data-aos="fade-down") En la variable x quedaría almacenado el número, 6 ya que el tamaño del arreglo es 6.
         .row.justify-content-start.mb-4 
           .col-auto(data-aos="flip-down")
             .bg26.p-2
               h4.mb-0 Arreglos e iteraciones
 
-        p(data-aos="fade-down") Para iterar y recorrer un arreglo, podemos hacerlo mediante el uso de ciclos como #[i for], #[i foreach] o #[i while]    
+        p(data-aos="fade-down") Para iterar y recorrer un arreglo, podemos hacerlo mediante el uso de ciclos como #[i for], #[i foreach] o #[i while]:
 
         .row.justify-content-center.align-items-center.mb-4           
           .col-lg-7
@@ -1237,7 +1221,7 @@
         .bg18.p-3.mb-4(data-aos="flip-down")
           p.mb-0 Las listas son una estructura de datos esencial que permite almacenar y gestionar colecciones de elementos. Son especialmente útiles para trabajar con múltiples objetos del mismo tipo y ejecutar operaciones sobre ellos. 
 
-        p(data-aos="fade-down") En Unity, puedes utilizar las listas para guardar distintos tipos de datos, incluidos objetos de juego, números enteros, cadenas o clases personalizadas. Las listas ofrecen una amplia gama de métodos y propiedades que facilitan la manipulación y el acceso a sus elementos                      
+        p(data-aos="fade-down") En Unity, puedes utilizar las listas para guardar distintos tipos de datos, incluidos objetos de juego, números enteros, cadenas o clases personalizadas. Las listas ofrecen una amplia gama de métodos y propiedades que facilitan la manipulación y el acceso a sus elementos.
       .col-lg-4.my-3
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/113.png')  
 
@@ -1255,7 +1239,7 @@
           .text-white 
             p.mb-0 List&#60;int&#62; ejemplo = new List&#60;int&#62;(); 
 
-    p(data-aos="fade-down").mb-5 Las listas son muy flexibles para asignar nuevos valores. Se pueden declarar e inicializar al mismo tiempo, o bien, se pueden agregar elementos más adelante según sea necesario. Dado que el tamaño de una lista no es fijo, permite agregar tantos elementos como se requieran."
+    p(data-aos="fade-down").mb-5 Las listas son muy flexibles para asignar nuevos valores. Se pueden declarar e inicializar al mismo tiempo, o bien, se pueden agregar elementos más adelante según sea necesario. Dado que el tamaño de una lista no es fijo, permite agregar tantos elementos como se requieran.
 
     .row.bg28.align-items-center.pt-5(data-aos="zoom-in")
       .col-lg-12.col-12.px-lg-5.px-4

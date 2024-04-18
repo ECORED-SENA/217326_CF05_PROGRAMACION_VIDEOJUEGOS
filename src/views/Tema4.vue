@@ -28,14 +28,14 @@
     .row.justify-content-center.align-items-end.mb-5           
       .col-lg-7.my-3
         .titulo-sexto.color-acento-contenido
-          h5 Figura 4.
+          h5 Figura 5.
           span Vector
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/152.svg',alt="Texto alternativo: La imagen muestra una representación gráfica de un vector en un sistema de coordenadas tridimensional.") 
       .col-lg-5.my-3
         .bg24.p-4.py-5.text-white(data-aos="fade-down")
           p Dos vectores son iguales si poseen la misma magnitud y dirección. Esto implica que, si trasladamos un vector a una posición diferente sin cambiar su dirección (es decir, sin rotarlo ni modificarlo de ninguna otra manera), el vector trasladado es considerado idéntico al vector original.
 
-          p.mb-0 En física, ejemplos habituales de vectores son aquellos que representan fuerzas y velocidades. La fuerza y la velocidad tienen direcciones definidas: la magnitud del vector fuerza señala la intensidad de dicha fuerza, mientras que la magnitud del vector velocidad indica la rapidez con la que un objeto se desplaza y en qué dirección lo hace.
+          p.mb-0 En física, los ejemplos habituales de vectores son aquellos que representan fuerzas y velocidades. La fuerza y la velocidad tienen direcciones definidas: la magnitud del vector fuerza señala la intensidad de dicha fuerza, mientras que la magnitud del vector velocidad indica la rapidez con la que un objeto se desplaza y en qué dirección lo hace.
 
     p(data-aos="fade-down").mb-4 Los vectores, representados gráficamente, poseen las siguientes características:
 
@@ -81,7 +81,7 @@
 
         .row.justify-content-center.align-items-center 
           .col-lg-9.text-white.my-3
-            p Si una matriz tiene m filas y n columnas, entonces contiene m×n elementos. Las matrices suelen representarse con letras mayúsculas, como 'A', y sus elementos con la misma letra en minúscula, seguida de dos subíndices que indican su posición específica en términos de fila y columna. Por ejemplo, aij representa el elemento de la matriz A que se encuentra en la i-ésima fila y la j-ésima columna, como se muestra a continuación: 
+            p Si una matriz tiene m filas y n columnas, entonces contiene m×n elementos. Las matrices suelen representarse con letras mayúsculas, como 'A', y sus elementos con la misma letra en minúscula, seguida de dos subíndices que indican su posición específica en términos de fila y columna. Por ejemplo, aij representa el elemento de la matriz A que se encuentra en la i-ésima fila y la j-ésima columna, como se presenta a continuación: 
           .col-lg-3     
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/155.svg')                
 
@@ -109,7 +109,7 @@
 
           .col-lg-5.my-3
             .titulo-sexto.color-acento-contenido
-              h5 Figura 5.
+              h5 Figura 6.
               span Ejemplo suma de matrices
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/157.svg',alt="Imagen de la suma de los elementos de 2 matrices.")          
 
@@ -126,7 +126,7 @@
 
           .col-lg-5.my-3
             .titulo-sexto.color-acento-contenido
-              h5 Figura 6.
+              h5 Figura 7.
               span Ejemplo resta de matrices
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/160.svg',alt="Imagen de la resta de los elementos de 2 matrices.")        
 
@@ -138,7 +138,7 @@
         .row.justify-content-center.mb-4 
           .col-lg-7.my-3
             .bg32.p-4.j(data-aos="fade-down")
-              p.mb-0 El producto de una matriz A con cualquier número 'c' se obtiene multiplicando cada entrada de la matriz A por c, se llama multiplicación escalar, es decir, (cA)ij=c(Aij)       
+              p.mb-0 El producto de una matriz A con cualquier número 'c' se obtiene multiplicando cada entrada de la matriz A por c, se llama multiplicación escalar, es decir, (cA)ij=c(Aij).
 
           .col-lg-5.my-3
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/161.png')                    

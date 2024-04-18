@@ -10,11 +10,11 @@
       .col-lg-12.col-12.px-lg-5.px-4
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/39.png')
 
-    p(data-aos="fade-down").mb-5 Para la composición de escenarios Unity cuenta con herramientas que facilitan su desarrollo, como es el caso de la herramienta editor de terrenos, en la cual se pueden asignar texturas y color a los mismos. Para usar la herramienta crear terrenos se sigue la ruta de #[i GameObject – 3D Object – Terrain], como se muestra a continuación:
+    p(data-aos="fade-down").mb-5 Para la composición de escenarios Unity cuenta con herramientas que facilitan su desarrollo, como es el caso de la herramienta editor de terrenos, en la cual se pueden asignar texturas y color a los mismos. Para usar la herramienta crear terrenos se sigue la ruta de #[i GameObject – 3D Object – Terrain], como se presenta a continuación:
 
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 17.
+      h5 Figura 18.
       span.fst-italic Terrain
     img.img-t.img-a.mb-1(data-aos="zoom-in")(src='@/assets/curso/temas/40.png',alt="La imagen muestra la interfaz de usuario de Unity, con un enfoque en el menú desplegable para crear nuevos objetos en la escena. ") 
     figcaption.mb-4 Nota. Opción crear Terrain.
@@ -23,7 +23,7 @@
 
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 18.
+      h5 Figura 19.
       span Configurar terreno
     img.img-t.img-a.mb-1(data-aos="zoom-in")(src='@/assets/curso/temas/41.png',alt="La imagen muestra la interfaz de Unity, donde se está configurando un terreno en una escena de juego.") 
     figcaption.mb-5 Nota. Opciones de configuración terreno.

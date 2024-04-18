@@ -41,14 +41,14 @@
 
     .row.justify-content-center.align-items-center.mb-4  
       .col-lg-10.my-3
-        p(data-aos="fade-down") Después de finalizada la creación del proyecto se muestra la interfaz de Unity como se ve en la siguiente imagen.  
+        p(data-aos="fade-down") Después de finalizada la creación del proyecto, se muestra la interfaz de Unity como se ve en la siguiente imagen.  
 
         p(data-aos="fade-down") En dicha pantalla se puede ver el entorno 3D y las pestañas, desde allí se puede configurar la interfaz según la necesidad requerida.
       .col-lg-2.my-3
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/166.png') 
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 7.
+      h5 Figura 8.
       span Interfaz Unity
     img.img-t.img-a.mb-1(data-aos="zoom-in")(src='@/assets/curso/temas/167.png',alt="La imagen muestra una captura de pantalla de la interfaz de usuario del software Unity, que es un entorno de desarrollo utilizado para crear juegos y experiencias interactivas tanto en 2D como en 3D.")
     figcaption.mb-5 Nota. Pantalla principal proyecto Unity.    
@@ -58,7 +58,7 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg6")
       .row.justify-content-center(titulo="<i>Game</i>")
         .col-lg-4.mb-4.mb-md-0
-          p En esta pestaña se ve el juego funcionando, para probarlo y verlo en ejecución se debe dar clic en el botón #[i play]. Cuando este botón está resaltado en azul indica que el juego está activo, tal como se muestra en la siguiente figura.  
+          p En esta pestaña se ve el juego funcionando, para probarlo y verlo en ejecución, se debe dar clic en el botón #[i play]. Cuando este botón está resaltado en azul, indica que el juego está activo, tal como se presenta en la siguiente figura.  
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/168.png')
@@ -66,7 +66,7 @@
 
       .row.justify-content-center(titulo="<i>Scene</i>")
         .col-lg-4.mb-4.mb-md-0
-          p Pestaña que permite configurar el escenario del videojuego, donde van a ir ubicados los elementos del mismo. Dichos elementos estarán listados en la pestaña de la izquierda llamada #[i hierarchy]. Unity por defecto ubica dos elementos, cámara (#[i Main Camera]) e iluminación (#[i Directional Light]) como se muestra en la siguiente figura.  
+          p Pestaña que permite configurar el escenario del videojuego, donde van a ir ubicados los elementos del mismo. Dichos elementos estarán listados en la pestaña de la izquierda llamada #[i hierarchy]. Unity por defecto ubica dos elementos, cámara (#[i Main Camera]) e iluminación (#[i Directional Light]) como se presenta en la siguiente figura.  
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/169.png')
@@ -88,7 +88,7 @@
           img.img-mov(src='@/assets/curso/temas/172.png')
           figcaption.bgw Nota. Opciones pestaña #[i Project].
 
-        p.my-4 O directamente en la ventana #[i Project], dando clic derecho en #[i Create] como se muestra en la siguiente figura      
+        p.my-4 O directamente en la ventana #[i Project], dando clic derecho en #[i Create] como se presenta en la siguiente figura      
         .px-lg-4
           img.img-mov(src='@/assets/curso/temas/173.png')
           figcaption.bgw Nota. Opciones pestaña #[i Project - Create].
@@ -106,7 +106,7 @@
 
           p En el escenario hay 3 ejes, alto, ancho y profundidad, que se indican en la parte superior derecha con las letras X, Y, Z. 
 
-          p Al dar clic derecho con el #[i mouse] se puede rotar la vista, además de que si se mantiene oprimido y se presiona las teclas WASD se podrá mover por el escenario como si se tratase de un videojuego en primera persona.  
+          p Al dar clic derecho con el #[i mouse] se puede rotar la vista, además de que si se mantiene oprimido y se presionan las teclas WASD se podrá mover por el escenario como si se tratase de un videojuego en primera persona.  
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/174.png')
