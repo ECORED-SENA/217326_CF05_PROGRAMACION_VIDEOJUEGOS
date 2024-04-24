@@ -45,72 +45,178 @@
     img.img-t.img-a.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/19.png')
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg6")
-      .row.justify-content-center(titulo="Paso 1: image")
-        .col-lg-4.mb-4.mb-md-0
-          p Para empezar, lo primero que se debe hacer es ir a la pestaña #[i GameObject – UI – Image], como se presenta en la siguiente figura.  En la pestaña #[i hierarchy] aparece un nuevo elemento llamado #[em canvas], el cual contiene el elemento #[i image] y el evento #[i system].
-
-          p Los pasos anteriores crearán un rectángulo transparente, el cual es el #[em canvas] de la #[i UI], así por ende este es el espacio donde se van a poner los elementos, luego se crea el botón desde #[i GameObjects – UI – Boton].   
-      
-        .col-lg-8.col-md-auto    
-          img.img-mov(src='@/assets/curso/temas/20.png')
-          figcaption Nota. Ejemplo creación interfaz. 
-      .row.justify-content-center(titulo="Paso 2: canva")
-        .col-lg-4.mb-4.mb-md-0
-          p El canva en #[i render] mode se asigna a #[i world space] para que la interfaz aparezca siempre delante de los objetos que están en escena, como se presenta en la siguiente figura. 
-      
-        .col-lg-8.col-md-auto    
-          img.img-mov(src='@/assets/curso/temas/21.png')
-          figcaption Nota. Ejemplo creación interfaz – render mode. 
-      .row.justify-content-center(titulo="Paso 3: texto botón")
-        .col-lg-4.mb-4.mb-md-0
-          p Seleccionando en #[i Hierarchy] el elemento botón, se selecciona el #[i Inspector] y se agrega el texto que se quiere que aparezca en el botón, en este caso será el de comenzar juego, como se presenta a continuación: 
-      
-        .col-lg-8.col-md-auto    
-          img.img-mov(src='@/assets/curso/temas/22.png')
-          figcaption Nota. Ejemplo creación interfaz – texto botón.      
-      .row.justify-content-center(titulo="Paso 4: barra vida")
-        .col-lg-4.mb-4.mb-md-0
-          p Para poner una barra de vida se crea el objeto #[i Slider] accediendo a la barra de menú principal #[i GameObject - UI - Slider]. Una vez puesto y seleccionado aparecerá una barra #[i Slider], se despliega y tendrá #[i background], luego se selecciona el #[i Inspector], se da clic en #[i image – color] y se asigna rojo, como se presenta en la siguiente figura. 
-      
-        .col-lg-8.col-md-auto    
-          img.img-mov(src='@/assets/curso/temas/23.png')
-          figcaption Nota. Ejemplo creación interfaz – barra vida. 
-      .row.justify-content-center(titulo="Paso 5. <i>Slider – fill area</i>")
-        .col-lg-4.mb-4.mb-md-0
-          p Luego, en el #[i Slider] se despliega #[i fill area – fill] y se cambia el color a verde para mostrar la barra de vida cuando está llena, como se presenta en la siguiente figura. 
-      
-        .col-lg-8.col-md-auto    
-          img.img-mov(src='@/assets/curso/temas/24.png')
-          figcaption Nota. Ejemplo creación interfaz – fill área. 
-      .row.justify-content-center(titulo="Paso 6: <i>Slider - handle slide area</i>")
-        .col-lg-4.mb-4.mb-md-0
-          p Ahora, en la tercera opción #[i handle slide] area se despliega y en #[i handle] se agrega un icono en #[i file] source para la barra de vida, como se presenta a continuación: 
-      
-        .col-lg-8.col-md-auto    
-          img.img-mov(src='@/assets/curso/temas/25.png')
-          figcaption Nota. Ejemplo creación interfaz – handle slide área.  
-      .row.justify-content-center(titulo="Paso 7: <i>Slider - value</i>")
-        .col-lg-4.mb-4.mb-md-0
-          p Ahora para ver el #[i Slider] en funcionamiento se puede volver a #[i Slide]r y en Inspector aumentar el valor para ver cómo se va llenando la barra de vida, como se presenta a continuación: 
-      
-        .col-lg-8.col-md-auto    
-          img.img-mov(src='@/assets/curso/temas/26.png')
-          figcaption Nota. Ejemplo creación interfaz – slider. 
-      .row.justify-content-center(titulo="Paso 8: título")
-        .col-lg-4.mb-4.mb-md-0
-          p Finalmente, se va a #[i GameObjcet – UI - Text] para crear el título que acompañará la interfaz, como se presenta la figura a continuación: 
-      
-        .col-lg-8.col-md-auto    
-          img.img-mov(src='@/assets/curso/temas/27.png')
-          figcaption Nota. Ejemplo creación interfaz – título. 
-      .row.justify-content-center(titulo="Paso 9: interfaz final")
-        .col-lg-4.mb-4.mb-md-0
-          p Con esto se tienen listos los elementos de la interfaz para iniciar el juego, como se ilustra en la siguiente figura: 
-      
-        .col-lg-8.col-md-auto    
-          img.img-mov(src='@/assets/curso/temas/28.png')
-          figcaption Nota. Ejemplo creación interfaz – elementos agregados.                                     
-
+      .row.justify-content-around(titulo="Paso 1: Image")
+        .col-lg-6.mb-4.mb-lg-0
+          p Para empezar, lo primero que se debe hacer es ir a la pestaña <em>GameObject – UI – Image</em>, como se muestra en la siguiente figura.  En la pestaña Hierarchy aparece un nuevo elemento llamado canvas, el cual contiene el elemento Image y el evento System.
+          p.mb-4 Los pasos anteriores crearán un rectángulo transparente, el cual es el canvas de la UI, así por ende este es el espacio donde se van a poner los elementos, luego se crea el botón desde <em>GameObject – UI – Button</em>.
+          .row
+            .col-sm-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                span Ampliar imagen
+                i.fas.fa-magnifying-glass
+                .indicador--click(v-if="mostrarIndicador")
+              ModalA(:abrir-modal.sync="modal1")
+                .row.justify-content-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/img1.png', style="width: 950px")
+                      figcaption Nota. Ejemplo creación interfaz.
+        .col-lg-5.mb-5
+          figure
+            img(src='@/assets/curso/temas/img1.png')
+            figcaption Nota. Ejemplo creación interfaz.
+      .row.justify-content-around(titulo="Paso 2: Canva")
+        .col-lg-6.mb-4.mb-lg-0
+          p.mb-4 El canva en Render mode se asigna a World Space para que la interfaz aparezca siempre delante de los objetos que están en escena, como se muestra en la siguiente figura.
+          .row
+            .col-sm-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
+                span Ampliar imagen
+                i.fas.fa-magnifying-glass
+                .indicador--click(v-if="mostrarIndicador")
+              ModalA(:abrir-modal.sync="modal2")
+                .row.justify-content-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/img2.png', style="width: 950px")
+                      figcaption Nota. Ejemplo creación interfaz – Render Mode.
+        .col-lg-5.mb-5
+          figure
+            img(src='@/assets/curso/temas/img2.png')
+            figcaption Nota. Ejemplo creación interfaz – Render Mode.
+      .row.justify-content-around(titulo="Paso 3: texto botón")
+        .col-lg-6.mb-4.mb-lg-0
+          p.mb-4 Seleccionando en Hierarchy el elemento botón, se selecciona el Inspector y se agrega el texto que se quiere que aparezca en el botón, en este caso será el de comenzar juego, como se muestra a continuación:
+          .row
+            .col-sm-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
+                span Ampliar imagen
+                i.fas.fa-magnifying-glass
+                .indicador--click(v-if="mostrarIndicador")
+              ModalA(:abrir-modal.sync="modal3")
+                .row.justify-content-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/img3.png', style="width: 950px")
+                      figcaption Nota. Ejemplo creación interfaz – texto botón.
+        .col-lg-5.mb-5
+          figure
+            img(src='@/assets/curso/temas/img3.png')
+            figcaption Nota. Ejemplo creación interfaz – texto botón.
+      .row.justify-content-around(titulo="Paso 4: barra vida")
+        .col-lg-6.mb-4.mb-lg-0
+          p.mb-4 Para poner una barra de vida se crea el objeto Slider accediendo a la barra de menú principal <em>GameObject - UI - Slider</em>. Una vez puesto y seleccionado aparecerá una barra Slider, se despliega y tendrá Background, luego se selecciona el Inspector, se da clic en <em>Image – Color</em> y se asigna rojo, como se muestra en la siguiente figura.
+          .row
+            .col-sm-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
+                span Ampliar imagen
+                i.fas.fa-magnifying-glass
+                .indicador--click(v-if="mostrarIndicador")
+              ModalA(:abrir-modal.sync="modal4")
+                .row.justify-content-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/img4.png', style="width: 950px")
+                      figcaption  Nota. Ejemplo creación interfaz – barra vida.
+        .col-lg-5.mb-5
+          figure
+            img(src='@/assets/curso/temas/img4.png')
+            figcaption  Nota. Ejemplo creación interfaz – barra vida.
+      .row.justify-content-around(titulo="Paso 5: Slider – Fill Area")
+        .col-lg-6.mb-4.mb-lg-0
+          p.mb-4 Luego, en el Slider se despliega <em>Fill Area – Fill</em> y se cambia el color a verde para mostrar la barra de vida cuando está llena, como se muestra en la siguiente figura.
+          .row
+            .col-sm-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal5 = true")
+                span Ampliar imagen
+                i.fas.fa-magnifying-glass
+                .indicador--click(v-if="mostrarIndicador")
+              ModalA(:abrir-modal.sync="modal5")
+                .row.justify-content-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/img5.png', style="width: 950px")
+                      figcaption  Nota. Ejemplo creación interfaz – Fill Area.                    
+        .col-lg-5.mb-5
+          figure
+            img(src='@/assets/curso/temas/img5.png')
+            figcaption  Nota. Ejemplo creación interfaz – Fill Area.
+      .row.justify-content-around(titulo="Paso 6: Slider - Handle Slide Area")
+        .col-lg-6.mb-4.mb-lg-0
+          p.mb-4 Ahora, en la tercera opción Handle Slide area se despliega y en Handle se agrega un icono en File Source para la barra de vida, como se muestra a continuación:
+          .row
+            .col-sm-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal6 = true")
+                span Ampliar imagen
+                i.fas.fa-magnifying-glass
+                .indicador--click(v-if="mostrarIndicador")
+              ModalA(:abrir-modal.sync="modal6")
+                .row.justify-content-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/img6.png', style="width: 950px")
+                      figcaption Nota. Ejemplo creación interfaz – Handle Slide Area.
+        .col-lg-5.mb-5
+          figure
+            img(src='@/assets/curso/temas/img6.png')
+            figcaption Nota. Ejemplo creación interfaz – Handle Slide Area.
+      .row.justify-content-around(titulo="Paso 7: Slider - Value")
+        .col-lg-6.mb-4.mb-lg-0
+          p.mb-4 Ahora para ver el Slider en funcionamiento se puede volver a Slider y en Inspector aumentar el valor para ver cómo se va llenando la barra de vida, como se muestra a continuación:
+          .row
+            .col-sm-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal7 = true")
+                span Ampliar imagen
+                i.fas.fa-magnifying-glass
+                .indicador--click(v-if="mostrarIndicador")
+              ModalA(:abrir-modal.sync="modal7")
+                .row.justify-content-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/img7.png', style="width: 950px")
+                      figcaption Nota. Ejemplo creación interfaz – Slider.
+        .col-lg-5.mb-5
+          figure
+            img(src='@/assets/curso/temas/img7.png')
+            figcaption Nota. Ejemplo creación interfaz – Slider.
+      .row.justify-content-around(titulo="Paso 8: título")
+        .col-lg-6.mb-4.mb-lg-0
+          p.mb-4 Finalmente, se va a <em>GameObject - UI - Text</em> para crear el título que acompañará la interfaz, como lo muestra la figura a continuación:
+          .row
+            .col-sm-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal8 = true")
+                span Ampliar imagen
+                i.fas.fa-magnifying-glass
+                .indicador--click(v-if="mostrarIndicador")
+              ModalA(:abrir-modal.sync="modal8")
+                .row.justify-content-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/img8.png', style="width: 950px")
+                      figcaption Nota. Ejemplo creación interfaz – título.
+        .col-lg-5.mb-5
+          figure
+            img(src='@/assets/curso/temas/img8.png')
+            figcaption Nota. Ejemplo creación interfaz – título.
+      .row.justify-content-around(titulo="Paso 9: interfaz final")
+        .col-lg-6.mb-4.mb-lg-0
+          p.mb-4 Con esto se tienen listos los elementos de la interfaz para iniciar el juego, como se ilustra en la siguiente figura:
+          .row
+            .col-sm-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal9 = true")
+                span Ampliar imagen
+                i.fas.fa-magnifying-glass
+                .indicador--click(v-if="mostrarIndicador")
+              ModalA(:abrir-modal.sync="modal9")
+                .row.justify-content-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/temas/img9.png', style="width: 950px")
+                      figcaption Nota. Ejemplo creación interfaz – elementos agregados.
+        .col-lg-5.mb-5
+          figure
+            img(src='@/assets/curso/temas/img9.png')
+            figcaption Nota. Ejemplo creación interfaz – elementos agregados.
 </template>
 
 <script>
@@ -118,6 +224,15 @@ export default {
   name: 'Tema11',
   data: () => ({
     // variables de vue
+    modal1: false,
+    modal2: false,
+    modal3: false,
+    modal4: false,
+    modal5: false,
+    modal6: false,
+    modal7: false,
+    modal8: false,
+    modal9: false,
   }),
   mounted() {
     this.$nextTick(() => {
