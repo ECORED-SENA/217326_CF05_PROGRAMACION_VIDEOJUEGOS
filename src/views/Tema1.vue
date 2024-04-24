@@ -12,7 +12,7 @@
         .row.justify-content-center   
           .col-lg-5.my-3
             h4.t1(data-aos="fade-left") Metodología rígida
-            p(data-aos="fade-down") Anteriormente para el desarrollo de un proyecto de #[i software] se utilizaba una metodología muy rígida en la que se llevaban a cabo procesos de identificación de necesidades, análisis y diseño, planificación, codificación, prueba piloto e implementación; fases que todavía se aplican pero que exigían grandes esfuerzos y se invertía muchísimo tiempo sobre todo en la etapa de planificación donde se debía documentar hasta el más mínimo detalle.           
+            p(data-aos="fade-down") Anteriormente para el desarrollo de un proyecto de #[i software] se utilizaba una metodología muy rígida en la que se llevaban a cabo procesos de identificación de necesidades, análisis y diseño, planificación, codificación, prueba piloto e implementación; fases que todavía se aplican, pero que exigían grandes esfuerzos y se invertía muchísimo tiempo sobre todo en la etapa de planificación donde se debía documentar hasta el más mínimo detalle.           
           .col-lg-5.my-3
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/2.svg')
 

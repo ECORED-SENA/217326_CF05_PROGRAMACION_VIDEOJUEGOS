@@ -63,7 +63,7 @@
           figcaption Nota. Ejemplo creación interfaz – render mode. 
       .row.justify-content-center(titulo="Paso 3: texto botón")
         .col-lg-4.mb-4.mb-md-0
-          p Seleccionando en #[i hierachi] el elemento botón, se selecciona el #[i Inspector] y se agrega el texto que se quiere que aparezca en el botón, en este caso será el de comenzar juego, como se presenta a continuación: 
+          p Seleccionando en #[i Hierarchy] el elemento botón, se selecciona el #[i Inspector] y se agrega el texto que se quiere que aparezca en el botón, en este caso será el de comenzar juego, como se presenta a continuación: 
       
         .col-lg-8.col-md-auto    
           img.img-mov(src='@/assets/curso/temas/22.png')

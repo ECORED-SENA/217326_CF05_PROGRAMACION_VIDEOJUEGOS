@@ -279,7 +279,7 @@
         h4.mb-4 Entrega del programa objeto
         pEs el programa que se obtiene producto del proceso de compilación que ha realizado la máquina. Si el programa fuente llega a tener algún error de sintaxis cometido por el programador, el compilador entrega los errores generados para que sean corregidos y se vuelva a realizar la compilación.
 
-        p.mb-0 Nota. Proceso llevado a cabo paa que un programa desarrollado sea ejecutado por el ordenador. Elaboración Propia(2021).       
+        p.mb-0 Nota. Proceso llevado a cabo para que un programa desarrollado sea ejecutado por el ordenador. Elaboración Propia(2021).       
       .tarjeta.color-acento-botones.p-3(x="76%" y="26%" numero="+")
         h4.mb-4 Ejecución del programa
         p.mb-0 El programa está listo para ser ejecutado por el ordenador y producir  los resultados que se esperan de este.                      
@@ -301,7 +301,7 @@
       .tarjeta.color-acento-botones.p-3(x="50%" y="52.5%" numero="+")
         h4.mb-4 Entrega del programa objeto
         p Es el programa que se obtiene producto del proceso de compilación que ha realizado la máquina. Si el programa fuente llega a tener algún error de sintaxis cometido por el programador, el compilador entrega los errores generados para que sean corregidos y se vuelva a realizar la compilación.
-        p.mb-0 Nota. Proceso llevado a cabo paa que un programa desarrollado sea ejecutado por el ordenador. Elaboración Propia(2021). 
+        p.mb-0 Nota. Proceso llevado a cabo para que un programa desarrollado sea ejecutado por el ordenador. Elaboración Propia(2021). 
    
       .tarjeta.color-acento-botones.p-3(x="50%" y="78.5%" numero="+")
         h4.mb-4 Entrega del programa ejecutable
@@ -353,7 +353,7 @@
               tr
                 td.w-300           
                   img.img-a.img-t(src='@/assets/curso/temas/71.svg', alt='')
-                td Conector que enlaza dos partes de un diagrama de flujo donde sus partes se encuentra en páginas diferentes. 
+                td Conector que enlaza dos partes de un diagrama de flujo donde sus partes se encuentran en páginas diferentes. 
               tr
                 td.w-300           
                   img.img-a.img-t(src='@/assets/curso/temas/72.svg', alt='')
@@ -590,7 +590,7 @@
         ul.lista-ul.fa-ul
           li 
             i.fas.fa-gamepad.t2
-            | Estos operadores se utilizan con las tablas de verdad; 
+            | Estos operadores se utilizan con las tablas de verdad. 
           li 
             i.fas.fa-gamepad.t2
             | el operador && (AND) es decir “y” ; solo devuelve un valor verdadero si las dos expresiones son verdad. 
@@ -837,13 +837,13 @@
                 ul.lista-ul.fa-ul
                   li 
                     i.fas.fa-gamepad.t2
-                    | Doble clic en la ventana de jerarquía en la opción #[i Button]
+                    span Doble clic en la ventana de jerarquía en la opción #[i Button]
                   li.ps-3 
                     i.fas.fa-gamepad.t2
                     | Clic en el botón del menú para cambiar el tamaño arrastrando los puntos de los extremos 
                   li.ps-5 
                     i.fas.fa-gamepad.t2
-                    | Doble clic en la ventana de jerarquía en la opción Text para cambiar el nombre del botón que este caso se va a llamar #[em Exit].         
+                    span Doble clic en la ventana de jerarquía en la opción Text para cambiar el nombre del botón que este caso se va a llamar #[em Exit].         
               .col-lg-8            
                 img.img-mov(src='@/assets/curso/temas/91.png')   
             .row.justify-content-center(titulo="<i>Script</i>")
