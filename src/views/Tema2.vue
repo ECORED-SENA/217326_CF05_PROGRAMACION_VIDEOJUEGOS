@@ -277,7 +277,7 @@
        
       .tarjeta.color-acento-botones.p-3(x="50%" y="85%" numero="+")
         h4.mb-4 Entrega del programa objeto
-        pEs el programa que se obtiene producto del proceso de compilación que ha realizado la máquina. Si el programa fuente llega a tener algún error de sintaxis cometido por el programador, el compilador entrega los errores generados para que sean corregidos y se vuelva a realizar la compilación.
+        p Es el programa que se obtiene producto del proceso de compilación que ha realizado la máquina. Si el programa fuente llega a tener algún error de sintaxis cometido por el programador, el compilador entrega los errores generados para que sean corregidos y se vuelva a realizar la compilación.
 
         p.mb-0 Nota. Proceso llevado a cabo para que un programa desarrollado sea ejecutado por el ordenador. Elaboración Propia(2021).       
       .tarjeta.color-acento-botones.p-3(x="76%" y="26%" numero="+")
@@ -823,15 +823,26 @@
         p(data-aos="fade-down").mb-5 En Unity se desea crear un evento en el cual el usuario presione el botón #[em Exit] y salga del juego. #[b.t1 En el proyecto en el que se está trabajando realizar las siguientes acciones:]
 
         .tarjeta.tarjeta--gris.p-4.mb-5
-          LineaTiempoC.color-primario
-            .row.justify-content-center(titulo="Evento")
+          TabsC.color-primario
+            .row.justify-content-center.py-3.py-md-4(titulo="Evento")
               .col-lg-4
                 p En el programa Unity, dar clic en la ventana de jerarquía 
                 p Clic en la opción #[i UI] (Interfaz de Usuario)
-                p Clic en la opción #[i Button]           
-              .col-lg-8            
+                p Clic en la opción #[i Button] 
+                .row
+                  .col-sm-auto
+                    a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                      span Ampliar imagen
+                      i.fas.fa-magnifying-glass
+                      .indicador--click(v-if="mostrarIndicador")
+                    ModalA(:abrir-modal.sync="modal1")
+                      .row.justify-content-center
+                        .col-auto
+                          figure
+                            img(src='@/assets/curso/temas/90.png', style="width: 1000px")
+              .col-lg-7            
                 img.img-mov(src='@/assets/curso/temas/90.png')  
-            .row.justify-content-center(titulo="Botón")
+            .row.justify-content-center.py-3.py-md-4(titulo="Botón")
               .col-lg-4
                 p Una vez creado el botón en la ventana de jerarquía se adiciona el objeto creado dentro de la plantilla #[em Canvas] y se pueden realizar las siguientes opciones:
                 ul.lista-ul.fa-ul
@@ -843,10 +854,21 @@
                     | Clic en el botón del menú para cambiar el tamaño arrastrando los puntos de los extremos 
                   li.ps-5 
                     i.fas.fa-gamepad.t2
-                    span Doble clic en la ventana de jerarquía en la opción Text para cambiar el nombre del botón que este caso se va a llamar #[em Exit].         
-              .col-lg-8            
+                    span Doble clic en la ventana de jerarquía en la opción Text para cambiar el nombre del botón que este caso se va a llamar #[em Exit].
+                .row
+                  .col-sm-auto
+                    a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
+                      span Ampliar imagen
+                      i.fas.fa-magnifying-glass
+                      .indicador--click(v-if="mostrarIndicador")
+                    ModalA(:abrir-modal.sync="modal2")
+                      .row.justify-content-center
+                        .col-auto
+                          figure
+                            img(src='@/assets/curso/temas/91.png', style="width: 1000px")                             
+              .col-lg-7            
                 img.img-mov(src='@/assets/curso/temas/91.png')   
-            .row.justify-content-center(titulo="<i>Script</i>")
+            .row.justify-content-center.py-3.py-md-4(titulo="<i>Script</i>")
               .col-lg-4
                 p Ya creado el botón debe asociarse la acción que va a realizar, que en este caso es salir y para ello se crea un #[i script] o líneas de código:
                 ul.lista-ul.fa-ul
@@ -858,22 +880,55 @@
                     span Clic en la opción #[i Create]
                   li.ps-5 
                     i.fas.fa-gamepad.t2
-                    span Clic en la opción C# #[i Script]            
-              .col-lg-8            
+                    span Clic en la opción C# #[i Script]
+                .row
+                  .col-sm-auto
+                    a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
+                      span Ampliar imagen
+                      i.fas.fa-magnifying-glass
+                      .indicador--click(v-if="mostrarIndicador")
+                    ModalA(:abrir-modal.sync="modal3")
+                      .row.justify-content-center
+                        .col-auto
+                          figure
+                            img(src='@/assets/curso/temas/92.png', style="width: 1000px")                                
+              .col-lg-7            
                 img.img-mov(src='@/assets/curso/temas/92.png')  
-            .row.justify-content-center(titulo="Archivo <i>script</i>")
+            .row.justify-content-center.py-3.py-md-4(titulo="Archivo <i>script</i>")
               .col-lg-4
-                p En la parte inferior en la ventana de proyecto se crea el archivo donde vamos a escribir las líneas de código, en este caso se le colocó el nombre #[i Salir] y en la ventana del inspector se muestra unas instrucciones con la estructura básica del programa:          
-              .col-lg-8            
+                p En la parte inferior en la ventana de proyecto se crea el archivo donde vamos a escribir las líneas de código, en este caso se le colocó el nombre #[i Salir] y en la ventana del inspector se muestra unas instrucciones con la estructura básica del programa:
+                .row
+                  .col-sm-auto
+                    a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
+                      span Ampliar imagen
+                      i.fas.fa-magnifying-glass
+                      .indicador--click(v-if="mostrarIndicador")
+                    ModalA(:abrir-modal.sync="modal4")
+                      .row.justify-content-center
+                        .col-auto
+                          figure
+                            img(src='@/assets/curso/temas/93.png', style="width: 1000px")                          
+              .col-lg-7            
                 img.img-mov(src='@/assets/curso/temas/93.png')   
-            .row.justify-content-center(titulo="Editor")
+            .row.justify-content-center.py-3.py-md-4(titulo="Editor")
               .col-lg-4
                 p Al hacer doble clic en el archivo C# denominado Salir se abre la ventana del editor Visual Studio en el cual se podrán escribir las líneas de código que ejecutarán la acción de salir.  
 
-                p En este caso se ha declarado una función  de tipo pública (#[i.t1 public]), es decir, que se puede utilizar en cualquier y por otros programas y además tiene la característica #[i.t1 void], que quiere decir, no devuelve ningún tipo de valor sino que ejecuta la acción. La sentencia #[i.t1 Application]. #[em Quit] ejecuta la acción de abandonar.   
-              .col-lg-8            
+                p En este caso se ha declarado una función  de tipo pública (#[i.t1 public]), es decir, que se puede utilizar en cualquier y por otros programas y además tiene la característica #[i.t1 void], que quiere decir, no devuelve ningún tipo de valor sino que ejecuta la acción. La sentencia #[i.t1 Application]. #[em Quit] ejecuta la acción de abandonar.
+                .row
+                  .col-sm-auto
+                    a.boton.color-acento-botones.indicador__container(@click="modal5 = true")
+                      span Ampliar imagen
+                      i.fas.fa-magnifying-glass
+                      .indicador--click(v-if="mostrarIndicador")
+                    ModalA(:abrir-modal.sync="modal5")
+                      .row.justify-content-center
+                        .col-auto
+                          figure
+                            img(src='@/assets/curso/temas/94.png', style="width: 1000px")                   
+              .col-lg-7            
                 img.img-mov(src='@/assets/curso/temas/94.png') 
-            .row.justify-content-center(titulo="Asociar")
+            .row.justify-content-center.py-3.py-md-4(titulo="Asociar")
               .col-lg-4
                 p Una vez construida la línea de código se debe anexar el evento en el inspector para que pueda ser ejecutado posteriormente. 
                 ul.lista-ul.fa-ul
@@ -885,13 +940,35 @@
                     span Clic en #[b.t5 2] el signo + para agregar la función salir
                   li.ps-5 
                     i.fas.fa-gamepad.t2
-                    span En el botón Runtime Only se ha agregado la función Salir #[b.t5 (3)]             
-              .col-lg-8            
+                    span En el botón Runtime Only se ha agregado la función Salir #[b.t5 (3)]
+                .row
+                  .col-sm-auto
+                    a.boton.color-acento-botones.indicador__container(@click="modal6 = true")
+                      span Ampliar imagen
+                      i.fas.fa-magnifying-glass
+                      .indicador--click(v-if="mostrarIndicador")
+                    ModalA(:abrir-modal.sync="modal6")
+                      .row.justify-content-center
+                        .col-auto
+                          figure
+                            img(src='@/assets/curso/temas/95.png', style="width: 1000px")                                 
+              .col-lg-7            
                 img.img-mov(src='@/assets/curso/temas/95.png')   
-            .row.justify-content-center(titulo="Juego")
+            .row.justify-content-center.py-3.py-md-4(titulo="Juego")
               .col-lg-4
                 p Cuando la función está lista para ser utilizada se observa en modo #[i Game] y no en modo escena para visualizar cómo se verá el botón del evento en la interfaz del usuario para que pueda ser accionado por éste.
-              .col-lg-8            
+                .row
+                  .col-sm-auto
+                    a.boton.color-acento-botones.indicador__container(@click="modal7 = true")
+                      span Ampliar imagen
+                      i.fas.fa-magnifying-glass
+                      .indicador--click(v-if="mostrarIndicador")
+                    ModalA(:abrir-modal.sync="modal7")
+                      .row.justify-content-center
+                        .col-auto
+                          figure
+                            img(src='@/assets/curso/temas/96.png', style="width: 1000px")                
+              .col-lg-7            
                 img.img-mov(src='@/assets/curso/temas/96.png')
 
 
@@ -1339,7 +1416,13 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    modal1: false,
+    modal2: false,
+    modal3: false,
+    modal4: false,
+    modal5: false,
+    modal6: false,
+    modal7: false,
   }),
   mounted() {
     this.$nextTick(() => {
