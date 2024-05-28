@@ -91,7 +91,7 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.png', alt='')
           .list__txt.bgicon.p-0.px-4
-            h4.mb-0.fst-italic Agile Manifiesto  
+            h4.mb-0.fst-italic Agile Manifesto  
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
@@ -100,7 +100,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Debido a los diferentes procedimientos que se utilizaban para llevar a cabo los proyectos de #[i software] y con el afán de unificarlos en un conjunto de buenas prácticas que se pudieran aplicar en los procesos de desarrollo, en el 2001 se creó la organización #[b.fst-italic.t1 Agile Alliance]; cuyo principal objetivo fue definir un conjunto de principios bajo los cuales se pueda trabajar de manera ágil y con calidad en cualquier entorno. 
 
-    p(data-aos="fade-down").mb-4 Dichos principios fueron acuñados con el nombre de #[b.fst-italic.t1 “Agile Manifiesto”] y su fundamento se halla en valores que promueven una cultura basada en la aceptación y adaptación a los cambios que sean necesarios para el progreso de una organización. Los valores mencionados priorizan:
+    p(data-aos="fade-down").mb-4 Dichos principios fueron acuñados con el nombre de #[b.fst-italic.t1 “Agile Manifesto”] y su fundamento se halla en valores que promueven una cultura basada en la aceptación y adaptación a los cambios que sean necesarios para el progreso de una organización. Los valores mencionados priorizan:
 
     .row.bg1.align-items-center.py-0.mb-5
       .col-lg-12.col-12.px-lg-5.px-4

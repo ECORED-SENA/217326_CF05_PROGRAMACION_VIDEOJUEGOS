@@ -1246,7 +1246,7 @@
             .bg24.p-3
               .text-white 
                 p.mb-0 int x = numeros.Length   
-        p(data-aos="fade-down") En la variable x quedaría almacenado el número, 6 ya que el tamaño del arreglo es 6.
+        p(data-aos="fade-down") En la variable x quedaría almacenado el número 6, ya que el tamaño del arreglo es 6.
         .row.justify-content-start.mb-4 
           .col-auto(data-aos="flip-down")
             .bg26.p-2
