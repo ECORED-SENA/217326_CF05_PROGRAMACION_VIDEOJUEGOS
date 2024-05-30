@@ -37,7 +37,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 10.
           span Crear cubo
-        img.img-t.img-a.mb-1(data-aos="zoom-in")(src='@/assets/curso/temas/180.png',alt="La imagen muestra una captura de pantalla más detallada de la interfaz de usuario del software Unity, con un enfoque particular en la utilización del menú GameObject para la creación de un nuevo objeto en la escena. ") 
+        img.img-t.img-a.mb-1(data-aos="zoom-in")(src='@/assets/curso/temas/180_1.png',alt="La imagen muestra una captura de pantalla más detallada de la interfaz de usuario del software Unity, con un enfoque particular en la utilización del menú GameObject para la creación de un nuevo objeto en la escena. ") 
         figcaption.mb-5 Nota. Opción menú crear cubo.  
 
     p(data-aos="fade-down").mb-5 Una vez hecho esto, en el escenario se incluirá un cubo. Para mover los objetos en el escenario, en la parte superior izquierda se encuentran 3 iconos: mover, rotar y escalar, como se resalta en la siguiente figura.     
