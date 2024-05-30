@@ -44,11 +44,13 @@
 
     .row.bg33.align-items-center.py-5.mb-5
       .col-lg-12.col-12.px-lg-5.px-4 
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 11.
-          span Mover, rotar, escalar
-        img.img-t.img-a.mb-1(data-aos="zoom-in")(src='@/assets/curso/temas/180.png',alt="La imagen muestra una captura de pantalla más detallada de la interfaz de usuario del software Unity, con un enfoque particular en la utilización del menú GameObject para la creación de un nuevo objeto en la escena. ") 
-        figcaption.mb-5.bgw Nota. Opciones iconos mover, rotar, escalar.
+        .row.justify-content-center    
+          .col-lg-auto      
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 11.
+              span Mover, rotar, escalar
+            img.img-t.img-a.mb-1(data-aos="zoom-in")(src='@/assets/curso/temas/180.png',alt="La imagen muestra una captura de pantalla más detallada de la interfaz de usuario del software Unity, con un enfoque particular en la utilización del menú GameObject para la creación de un nuevo objeto en la escena. ") 
+            figcaption.mb-5.bgw Nota. Opciones iconos mover, rotar, escalar.
 
         .tarjeta.tarjeta--gris.p-4(data-aos="fade-left")
           SlyderA(tipo="b")
